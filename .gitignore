@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Package metadata
+*.egg-info/
+
+# Environment variables
+.env
+
+# Data and generated outputs
+data/
+outputs/
+baseline/
+
+# macOS
+.DS_Store
+
+# LaTeX build artifacts
+paper_initial.aux
+paper_initial.fdb_latexmk
+paper_initial.fls
+paper_initial.log
+paper_initial.out
+paper_initial.pdf
+paper_initial.synctex.gz
+paper_initial.tex

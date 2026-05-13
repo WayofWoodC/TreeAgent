@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pe-quarterly-pipeline"
+version = "0.1.0"
+description = "Quarterly PE ratio prediction pipeline with XGBoost"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "pyarrow>=16.0",
+  "requests>=2.32",
+  "scikit-learn>=1.5",
+  "xgboost>=2.1",
+  "optuna>=3.6",
+  "joblib>=1.4",
+  "python-dotenv>=1.0",
+]
+
+[project.scripts]
+pe-pipeline = "pe_pipeline.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["pe_pipeline*", "baseline*"]
