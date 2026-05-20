@@ -1,0 +1,19 @@
+{
+  "val_rmse": 149.32853536690908,
+  "test_rmse": 132.70311108143235,
+  "val_spearman_ic": 0.664839207658236,
+  "test_spearman_ic": 0.7266420182344979,
+  "val_r2": 0.07144762174920083,
+  "test_r2": 0.16168715813002654,
+  "best_params_used": {
+    "n_estimators": 900,
+    "learning_rate": 0.013980880749573609,
+    "max_depth": 2,
+    "min_child_weight": 19.62331037999536,
+    "gamma": 1.98838169790698,
+    "subsample": 0.8701129340009544,
+    "colsample_bytree": 0.7630937412953283,
+    "reg_alpha": 4.301893107058401,
+    "reg_lambda": 0.2676478850246532
+  }
+}

@@ -1,0 +1,1131 @@
+2026-04-27 14:24:13,030 | INFO | Fetching S&P 500 universe
+2026-04-27 14:25:01,367 | INFO | Fetching S&P 500 universe
+2026-04-27 14:25:24,237 | INFO | Fetching S&P 500 universe
+2026-04-27 14:25:25,642 | INFO | Fetching equity data for MMM (1/1)
+2026-04-27 14:25:26,660 | WARNING | Fetch failed for MMM: Failed request: https://financialmodelingprep.com/api/v3/historical-price-full/MMM
+2026-04-27 14:39:24,430 | INFO | Fetching S&P 500 universe
+2026-04-27 14:39:24,836 | INFO | Fetching equity data for MMM (1/1)
+2026-04-27 14:40:56,826 | INFO | Loading raw datasets
+2026-04-27 14:40:56,946 | INFO | Building quarterly feature blocks
+2026-04-27 14:41:19,651 | INFO | Loading raw datasets
+2026-04-27 14:41:19,769 | INFO | Building quarterly feature blocks
+2026-04-27 14:42:58,511 | INFO | Training rows=58 validation rows=19 test rows=20
+2026-04-27 14:43:24,703 | INFO | Running backtest on 20 prediction rows
+2026-04-27 14:44:12,203 | INFO | Running backtest on 20 prediction rows
+2026-04-27 14:44:41,694 | INFO | Running backtest on 20 prediction rows
+2026-04-27 14:53:00,235 | INFO | Fetching S&P 500 universe
+2026-04-27 14:53:00,446 | INFO | Fetching equity data for MMM (1/1)
+2026-04-27 14:53:10,146 | INFO | Loading raw datasets
+2026-04-27 14:53:10,233 | INFO | Building quarterly feature blocks
+2026-04-27 14:53:12,125 | INFO | Training rows=58 validation rows=19 test rows=20
+2026-04-27 14:53:13,651 | INFO | Running backtest on 20 prediction rows
+2026-04-27 15:01:26,353 | INFO | Running backtest on 20 prediction rows
+2026-04-27 15:06:51,806 | INFO | Fetching S&P 500 universe
+2026-04-27 15:06:52,002 | INFO | Fetching equity data for MMM (1/1)
+2026-04-27 15:07:03,341 | INFO | Loading raw datasets
+2026-04-27 15:07:03,491 | INFO | Building quarterly feature blocks
+2026-04-27 15:07:05,215 | INFO | Training rows=58 validation rows=19 test rows=20
+2026-04-27 15:07:06,779 | INFO | Running backtest on 20 prediction rows
+2026-04-27 15:54:42,250 | INFO | Fetching S&P 500 universe
+2026-04-27 15:54:43,195 | INFO | Fetching equity data for MMM (1/20)
+2026-04-27 15:54:44,323 | INFO | Fetching equity data for AOS (2/20)
+2026-04-27 15:54:45,849 | INFO | Fetching equity data for ABT (3/20)
+2026-04-27 15:54:46,476 | INFO | Fetching equity data for ABBV (4/20)
+2026-04-27 15:54:46,920 | INFO | Fetching equity data for ACN (5/20)
+2026-04-27 15:54:47,524 | INFO | Fetching equity data for ADBE (6/20)
+2026-04-27 15:54:48,784 | INFO | Fetching equity data for AMD (7/20)
+2026-04-27 15:54:49,293 | INFO | Fetching equity data for AES (8/20)
+2026-04-27 15:54:49,942 | INFO | Fetching equity data for AFL (9/20)
+2026-04-27 15:54:50,532 | INFO | Fetching equity data for A (10/20)
+2026-04-27 15:54:51,166 | INFO | Fetching equity data for APD (11/20)
+2026-04-27 15:54:52,457 | INFO | Fetching equity data for ABNB (12/20)
+2026-04-27 15:54:52,812 | INFO | Fetching equity data for AKAM (13/20)
+2026-04-27 15:54:53,362 | INFO | Fetching equity data for ALB (14/20)
+2026-04-27 15:54:54,072 | INFO | Fetching equity data for ARE (15/20)
+2026-04-27 15:54:54,647 | INFO | Fetching equity data for ALGN (16/20)
+2026-04-27 15:54:55,253 | INFO | Fetching equity data for ALLE (17/20)
+2026-04-27 15:54:55,892 | INFO | Fetching equity data for LNT (18/20)
+2026-04-27 15:54:56,512 | INFO | Fetching equity data for ALL (19/20)
+2026-04-27 15:54:57,202 | INFO | Fetching equity data for GOOGL (20/20)
+2026-04-27 15:55:06,046 | INFO | Loading raw datasets
+2026-04-27 15:55:07,325 | INFO | Building quarterly feature blocks
+2026-04-27 15:55:08,581 | INFO | Training rows=885 validation rows=356 test rows=366
+2026-04-27 15:55:09,898 | INFO | Running backtest on 20 prediction rows
+2026-04-27 15:55:54,255 | INFO | Fetching S&P 500 universe
+2026-04-27 15:55:54,469 | INFO | Fetching equity data for MMM (1/10)
+2026-04-27 15:55:55,171 | INFO | Fetching equity data for AOS (2/10)
+2026-04-27 15:55:55,802 | INFO | Fetching equity data for ABT (3/10)
+2026-04-27 15:55:56,417 | INFO | Fetching equity data for ABBV (4/10)
+2026-04-27 15:55:56,812 | INFO | Fetching equity data for ACN (5/10)
+2026-04-27 15:55:57,334 | INFO | Fetching equity data for ADBE (6/10)
+2026-04-27 15:55:57,897 | INFO | Fetching equity data for AMD (7/10)
+2026-04-27 15:55:58,418 | INFO | Fetching equity data for AES (8/10)
+2026-04-27 15:55:59,037 | INFO | Fetching equity data for AFL (9/10)
+2026-04-27 15:55:59,907 | INFO | Fetching equity data for A (10/10)
+2026-04-27 15:56:04,894 | INFO | Loading raw datasets
+2026-04-27 15:56:04,990 | INFO | Building quarterly feature blocks
+2026-04-27 15:56:06,375 | INFO | Training rows=466 validation rows=180 test rows=190
+2026-04-27 15:56:07,872 | INFO | Running backtest on 190 prediction rows
+2026-04-27 16:00:49,035 | INFO | Running backtest on 190 prediction rows
+2026-04-27 16:01:42,300 | INFO | Running backtest on 190 prediction rows
+2026-04-27 16:02:27,550 | INFO | Running backtest on 190 prediction rows
+2026-04-27 16:15:01,683 | INFO | Running backtest on 190 prediction rows
+2026-04-27 16:18:10,919 | INFO | Running backtest on 190 prediction rows
+2026-04-27 16:23:00,446 | INFO | Running backtest on 190 prediction rows
+2026-05-06 17:40:05,119 | INFO | Loading raw datasets
+2026-05-06 17:40:05,257 | INFO | Building quarterly feature blocks
+2026-05-06 17:40:05,259 | INFO | Training rows=466 validation rows=180 test rows=190
+2026-05-06 17:40:27,599 | INFO | Training rows=475 validation rows=181 test rows=190
+2026-05-06 17:40:55,268 | INFO | Running backtest on 190 prediction rows
+2026-05-06 17:46:19,977 | INFO | Fetching S&P 500 universe
+2026-05-06 17:46:20,207 | INFO | Fetching equity data for MMM (1/10)
+2026-05-06 17:46:37,642 | INFO | Fetching equity data for AOS (2/10)
+2026-05-06 17:46:38,509 | INFO | Fetching equity data for ABT (3/10)
+2026-05-06 17:46:39,431 | INFO | Fetching equity data for ABBV (4/10)
+2026-05-06 17:46:40,235 | INFO | Fetching equity data for ACN (5/10)
+2026-05-06 17:46:41,132 | INFO | Fetching equity data for ADBE (6/10)
+2026-05-06 17:46:42,346 | INFO | Fetching equity data for AMD (7/10)
+2026-05-06 17:46:43,061 | INFO | Fetching equity data for AES (8/10)
+2026-05-06 17:46:43,911 | INFO | Fetching equity data for AFL (9/10)
+2026-05-06 17:46:44,726 | INFO | Fetching equity data for A (10/10)
+2026-05-06 17:49:05,461 | INFO | Fetching S&P 500 universe
+2026-05-06 17:49:05,610 | INFO | Fetching equity data for MMM (1/20)
+2026-05-06 17:49:06,668 | INFO | Fetching equity data for AOS (2/20)
+2026-05-06 17:49:07,562 | INFO | Fetching equity data for ABT (3/20)
+2026-05-06 17:49:08,448 | INFO | Fetching equity data for ABBV (4/20)
+2026-05-06 17:49:09,309 | INFO | Fetching equity data for ACN (5/20)
+2026-05-06 17:49:10,207 | INFO | Fetching equity data for ADBE (6/20)
+2026-05-06 17:49:10,969 | INFO | Fetching equity data for AMD (7/20)
+2026-05-06 17:49:11,788 | INFO | Fetching equity data for AES (8/20)
+2026-05-06 17:49:12,587 | INFO | Fetching equity data for AFL (9/20)
+2026-05-06 17:49:13,349 | INFO | Fetching equity data for A (10/20)
+2026-05-06 17:49:14,188 | INFO | Fetching equity data for APD (11/20)
+2026-05-06 17:49:25,856 | INFO | Fetching S&P 500 universe
+2026-05-06 17:49:26,010 | INFO | Fetching equity data for MMM (1/10)
+2026-05-06 17:49:26,988 | INFO | Fetching equity data for AOS (2/10)
+2026-05-06 17:49:28,039 | INFO | Fetching equity data for ABT (3/10)
+2026-05-06 17:49:28,919 | INFO | Fetching equity data for ABBV (4/10)
+2026-05-06 17:49:29,776 | INFO | Fetching equity data for ACN (5/10)
+2026-05-06 17:49:30,659 | INFO | Fetching equity data for ADBE (6/10)
+2026-05-06 17:49:31,489 | INFO | Fetching equity data for AMD (7/10)
+2026-05-06 17:49:32,422 | INFO | Fetching equity data for AES (8/10)
+2026-05-06 17:49:33,280 | INFO | Fetching equity data for AFL (9/10)
+2026-05-06 17:49:34,103 | INFO | Fetching equity data for A (10/10)
+2026-05-06 17:52:35,993 | WARNING | Macro fetch failed for AAA10Y (AAA10Y): Failed request: https://fred.stlouisfed.org/graph/fredgraph.csv?id=AAA10Y
+2026-05-06 17:55:37,243 | WARNING | Macro fetch failed for BAA10Y (BAA10Y): Failed request: https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA10Y
+2026-05-06 17:58:38,288 | WARNING | Macro fetch failed for DCOILWTICO (DCOILWTICO): Failed request: https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILWTICO
+2026-05-06 18:01:39,550 | WARNING | Macro fetch failed for T3MFF (T3MFF): Failed request: https://fred.stlouisfed.org/graph/fredgraph.csv?id=T3MFF
+2026-05-06 18:04:00,608 | WARNING | Macro fetch failed for T10Y3M (T10Y3M): Failed request: https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y3M
+2026-05-06 18:14:06,873 | INFO | Fetching S&P 500 universe
+2026-05-06 18:14:07,037 | INFO | Fetching equity data for MMM (1/5)
+2026-05-06 18:14:39,285 | INFO | Fetching equity data for AOS (2/5)
+2026-05-06 18:14:42,915 | INFO | Fetching equity data for ABT (3/5)
+2026-05-06 18:14:43,724 | INFO | Fetching equity data for ABBV (4/5)
+2026-05-06 18:14:44,661 | INFO | Fetching equity data for ACN (5/5)
+2026-05-06 18:16:26,581 | WARNING | Macro fetch failed for AAA10Y (AAA10Y): Failed request: https://fred.stlouisfed.org/graph/fredgraph.csv?id=AAA10Y
+2026-05-06 18:19:27,605 | WARNING | Macro fetch failed for BAA10Y (BAA10Y): Failed request: https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA10Y
+2026-05-06 18:22:54,272 | INFO | Fetching S&P 500 universe
+2026-05-06 18:22:54,459 | INFO | Fetching equity data for MMM (1/5)
+2026-05-06 18:22:55,402 | INFO | Fetching equity data for AOS (2/5)
+2026-05-06 18:22:56,251 | INFO | Fetching equity data for ABT (3/5)
+2026-05-06 18:22:57,068 | INFO | Fetching equity data for ABBV (4/5)
+2026-05-06 18:22:57,679 | INFO | Fetching equity data for ACN (5/5)
+2026-05-06 18:23:44,082 | INFO | Loading raw datasets
+2026-05-06 18:23:44,152 | INFO | Building quarterly feature blocks
+2026-05-06 18:23:44,490 | INFO | Training rows=245 validation rows=100 test rows=100
+2026-05-06 18:23:45,147 | INFO | Running backtest on 100 prediction rows
+2026-05-06 23:03:41,933 | INFO | Fetching S&P 500 universe
+2026-05-06 23:03:42,413 | INFO | Fetching equity data for MMM (1/20)
+2026-05-06 23:03:43,274 | INFO | Fetching equity data for AOS (2/20)
+2026-05-06 23:03:44,053 | INFO | Fetching equity data for ABT (3/20)
+2026-05-06 23:03:44,740 | INFO | Fetching equity data for ABBV (4/20)
+2026-05-06 23:03:45,422 | INFO | Fetching equity data for ACN (5/20)
+2026-05-06 23:03:46,139 | INFO | Fetching equity data for ADBE (6/20)
+2026-05-06 23:03:46,957 | INFO | Fetching equity data for AMD (7/20)
+2026-05-06 23:03:47,628 | INFO | Fetching equity data for AES (8/20)
+2026-05-06 23:03:48,345 | INFO | Fetching equity data for AFL (9/20)
+2026-05-06 23:03:49,099 | INFO | Fetching equity data for A (10/20)
+2026-05-06 23:03:49,864 | INFO | Fetching equity data for APD (11/20)
+2026-05-06 23:03:50,591 | INFO | Fetching equity data for ABNB (12/20)
+2026-05-06 23:03:51,108 | INFO | Fetching equity data for AKAM (13/20)
+2026-05-06 23:03:51,770 | INFO | Fetching equity data for ALB (14/20)
+2026-05-06 23:03:52,577 | INFO | Fetching equity data for ARE (15/20)
+2026-05-06 23:03:53,407 | INFO | Fetching equity data for ALGN (16/20)
+2026-05-06 23:03:54,149 | INFO | Fetching equity data for ALLE (17/20)
+2026-05-06 23:03:54,845 | INFO | Fetching equity data for LNT (18/20)
+2026-05-06 23:03:55,576 | INFO | Fetching equity data for ALL (19/20)
+2026-05-06 23:03:56,208 | INFO | Fetching equity data for GOOGL (20/20)
+2026-05-06 23:04:01,156 | INFO | Loading raw datasets
+2026-05-06 23:04:01,290 | INFO | Building quarterly feature blocks
+2026-05-06 23:04:02,420 | INFO | Training rows=903 validation rows=357 test rows=371
+2026-05-06 23:04:02,716 | INFO | Running backtest on 371 prediction rows
+2026-05-06 23:13:52,804 | INFO | Fetching S&P 500 universe
+2026-05-06 23:13:53,176 | INFO | Fetching equity data for MMM (1/100)
+2026-05-06 23:13:54,151 | INFO | Fetching equity data for AOS (2/100)
+2026-05-06 23:13:54,904 | INFO | Fetching equity data for ABT (3/100)
+2026-05-06 23:13:55,738 | INFO | Fetching equity data for ABBV (4/100)
+2026-05-06 23:13:56,391 | INFO | Fetching equity data for ACN (5/100)
+2026-05-06 23:13:57,073 | INFO | Fetching equity data for ADBE (6/100)
+2026-05-06 23:13:57,825 | INFO | Fetching equity data for AMD (7/100)
+2026-05-06 23:13:58,477 | INFO | Fetching equity data for AES (8/100)
+2026-05-06 23:13:59,161 | INFO | Fetching equity data for AFL (9/100)
+2026-05-06 23:13:59,961 | INFO | Fetching equity data for A (10/100)
+2026-05-06 23:14:00,728 | INFO | Fetching equity data for APD (11/100)
+2026-05-06 23:14:01,539 | INFO | Fetching equity data for ABNB (12/100)
+2026-05-06 23:14:02,093 | INFO | Fetching equity data for AKAM (13/100)
+2026-05-06 23:14:02,786 | INFO | Fetching equity data for ALB (14/100)
+2026-05-06 23:14:03,622 | INFO | Fetching equity data for ARE (15/100)
+2026-05-06 23:14:04,326 | INFO | Fetching equity data for ALGN (16/100)
+2026-05-06 23:14:05,065 | INFO | Fetching equity data for ALLE (17/100)
+2026-05-06 23:14:05,714 | INFO | Fetching equity data for LNT (18/100)
+2026-05-06 23:14:06,503 | INFO | Fetching equity data for ALL (19/100)
+2026-05-06 23:14:07,272 | INFO | Fetching equity data for GOOGL (20/100)
+2026-05-06 23:14:07,888 | INFO | Fetching equity data for GOOG (21/100)
+2026-05-06 23:14:08,574 | INFO | Fetching equity data for MO (22/100)
+2026-05-06 23:15:09,475 | INFO | Fetching equity data for AMZN (23/100)
+2026-05-06 23:15:10,187 | INFO | Fetching equity data for AMCR (24/100)
+2026-05-06 23:15:10,782 | INFO | Fetching equity data for AEE (25/100)
+2026-05-06 23:15:11,624 | INFO | Fetching equity data for AEP (26/100)
+2026-05-06 23:15:12,559 | INFO | Fetching equity data for AXP (27/100)
+2026-05-06 23:15:13,324 | INFO | Fetching equity data for AIG (28/100)
+2026-05-06 23:15:13,931 | INFO | Fetching equity data for AMT (29/100)
+2026-05-06 23:15:14,659 | INFO | Fetching equity data for AWK (30/100)
+2026-05-06 23:15:15,258 | INFO | Fetching equity data for AMP (31/100)
+2026-05-06 23:15:15,967 | INFO | Fetching equity data for AME (32/100)
+2026-05-06 23:15:16,765 | INFO | Fetching equity data for AMGN (33/100)
+2026-05-06 23:15:17,576 | INFO | Fetching equity data for APH (34/100)
+2026-05-06 23:15:18,482 | INFO | Fetching equity data for ADI (35/100)
+2026-05-06 23:15:19,205 | INFO | Fetching equity data for ANSS (36/100)
+2026-05-06 23:15:20,465 | WARNING | Fetch failed for ANSS: Failed request: https://query1.finance.yahoo.com/v8/finance/chart/ANSS
+2026-05-06 23:15:20,465 | INFO | Fetching equity data for AON (37/100)
+2026-05-06 23:15:21,165 | INFO | Fetching equity data for APA (38/100)
+2026-05-06 23:15:21,883 | INFO | Fetching equity data for APO (39/100)
+2026-05-06 23:15:22,650 | INFO | Fetching equity data for AAPL (40/100)
+2026-05-06 23:15:23,575 | INFO | Fetching equity data for AMAT (41/100)
+2026-05-06 23:15:24,389 | INFO | Fetching equity data for APTV (42/100)
+2026-05-06 23:15:25,042 | INFO | Fetching equity data for ACGL (43/100)
+2026-05-06 23:15:25,747 | INFO | Fetching equity data for ADM (44/100)
+2026-05-06 23:15:26,503 | INFO | Fetching equity data for ANET (45/100)
+2026-05-06 23:15:27,115 | INFO | Fetching equity data for AJG (46/100)
+2026-05-06 23:15:27,920 | INFO | Fetching equity data for AIZ (47/100)
+2026-05-06 23:15:28,599 | INFO | Fetching equity data for T (48/100)
+2026-05-06 23:15:29,346 | INFO | Fetching equity data for ATO (49/100)
+2026-05-06 23:15:30,194 | INFO | Fetching equity data for ADSK (50/100)
+2026-05-06 23:15:31,079 | INFO | Fetching equity data for ADP (51/100)
+2026-05-06 23:15:31,834 | INFO | Fetching equity data for AZO (52/100)
+2026-05-06 23:15:32,579 | INFO | Fetching equity data for AVB (53/100)
+2026-05-06 23:15:34,306 | WARNING | Fetch failed for AVB: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:34,307 | INFO | Fetching equity data for AVY (54/100)
+2026-05-06 23:15:35,871 | WARNING | Fetch failed for AVY: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:35,871 | INFO | Fetching equity data for AXON (55/100)
+2026-05-06 23:15:37,459 | WARNING | Fetch failed for AXON: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:37,459 | INFO | Fetching equity data for BKR (56/100)
+2026-05-06 23:15:39,017 | WARNING | Fetch failed for BKR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:39,017 | INFO | Fetching equity data for BALL (57/100)
+2026-05-06 23:15:40,576 | WARNING | Fetch failed for BALL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:40,576 | INFO | Fetching equity data for BAC (58/100)
+2026-05-06 23:15:42,186 | WARNING | Fetch failed for BAC: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:42,186 | INFO | Fetching equity data for BAX (59/100)
+2026-05-06 23:15:43,716 | WARNING | Fetch failed for BAX: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:43,716 | INFO | Fetching equity data for BDX (60/100)
+2026-05-06 23:15:45,306 | WARNING | Fetch failed for BDX: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:45,306 | INFO | Fetching equity data for BRK-B (61/100)
+2026-05-06 23:15:46,894 | WARNING | Fetch failed for BRK-B: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:46,895 | INFO | Fetching equity data for BBY (62/100)
+2026-05-06 23:15:48,458 | WARNING | Fetch failed for BBY: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:48,459 | INFO | Fetching equity data for TECH (63/100)
+2026-05-06 23:15:50,081 | WARNING | Fetch failed for TECH: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:50,081 | INFO | Fetching equity data for BIIB (64/100)
+2026-05-06 23:15:51,580 | WARNING | Fetch failed for BIIB: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:51,580 | INFO | Fetching equity data for BLK (65/100)
+2026-05-06 23:15:53,182 | WARNING | Fetch failed for BLK: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:53,182 | INFO | Fetching equity data for BX (66/100)
+2026-05-06 23:15:54,759 | WARNING | Fetch failed for BX: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:54,759 | INFO | Fetching equity data for BK (67/100)
+2026-05-06 23:15:56,333 | WARNING | Fetch failed for BK: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:56,333 | INFO | Fetching equity data for BA (68/100)
+2026-05-06 23:15:57,914 | WARNING | Fetch failed for BA: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:57,914 | INFO | Fetching equity data for BKNG (69/100)
+2026-05-06 23:15:59,679 | WARNING | Fetch failed for BKNG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:15:59,680 | INFO | Fetching equity data for BWA (70/100)
+2026-05-06 23:16:01,141 | WARNING | Fetch failed for BWA: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-06 23:16:01,141 | INFO | Fetching equity data for BSX (71/100)
+2026-05-06 23:16:17,196 | INFO | Fetching equity data for BMY (72/100)
+2026-05-06 23:16:17,966 | INFO | Fetching equity data for AVGO (73/100)
+2026-05-06 23:16:18,669 | INFO | Fetching equity data for BR (74/100)
+2026-05-06 23:16:19,302 | INFO | Fetching equity data for BRO (75/100)
+2026-05-06 23:16:20,013 | INFO | Fetching equity data for BF-B (76/100)
+2026-05-06 23:16:20,941 | INFO | Fetching equity data for BLDR (77/100)
+2026-05-06 23:16:21,571 | INFO | Fetching equity data for BG (78/100)
+2026-05-06 23:16:22,416 | INFO | Fetching equity data for BXP (79/100)
+2026-05-06 23:16:23,157 | INFO | Fetching equity data for CHRW (80/100)
+2026-05-06 23:16:24,069 | INFO | Fetching equity data for CDNS (81/100)
+2026-05-06 23:16:25,446 | INFO | Fetching equity data for CZR (82/100)
+2026-05-06 23:16:26,038 | INFO | Fetching equity data for CPT (83/100)
+2026-05-06 23:16:26,763 | INFO | Fetching equity data for CPB (84/100)
+2026-05-06 23:16:28,621 | INFO | Fetching equity data for COF (85/100)
+2026-05-06 23:16:29,374 | INFO | Fetching equity data for CAH (86/100)
+2026-05-06 23:16:30,255 | INFO | Fetching equity data for KMX (87/100)
+2026-05-06 23:16:31,338 | INFO | Fetching equity data for CCL (88/100)
+2026-05-06 23:16:32,138 | INFO | Fetching equity data for CARR (89/100)
+2026-05-06 23:16:32,683 | INFO | Fetching equity data for CAT (90/100)
+2026-05-06 23:16:33,437 | INFO | Fetching equity data for CBOE (91/100)
+2026-05-06 23:16:34,107 | INFO | Fetching equity data for CBRE (92/100)
+2026-05-06 23:16:34,694 | INFO | Fetching equity data for CDW (93/100)
+2026-05-06 23:16:35,397 | INFO | Fetching equity data for CE (94/100)
+2026-05-06 23:16:36,089 | INFO | Fetching equity data for COR (95/100)
+2026-05-06 23:16:36,814 | INFO | Fetching equity data for CNC (96/100)
+2026-05-06 23:16:37,592 | INFO | Fetching equity data for CNP (97/100)
+2026-05-06 23:16:38,347 | INFO | Fetching equity data for CF (98/100)
+2026-05-06 23:16:39,123 | INFO | Fetching equity data for CRL (99/100)
+2026-05-06 23:16:39,804 | INFO | Fetching equity data for SCHW (100/100)
+2026-05-06 23:16:46,097 | INFO | Loading raw datasets
+2026-05-06 23:16:46,202 | INFO | Building quarterly feature blocks
+2026-05-06 23:16:51,562 | INFO | Training rows=3723 validation rows=1460 test rows=1565
+2026-05-06 23:16:51,883 | INFO | Running backtest on 1565 prediction rows
+2026-05-07 18:57:07,440 | INFO | Starting walk-forward hyperparameter tuning with 3 trials on 5183 development rows
+2026-05-07 18:57:31,752 | INFO | Training rows=3723 validation rows=1460 test rows=1565
+2026-05-07 18:57:31,752 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-07 19:05:58,985 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 5183 development rows
+2026-05-07 19:11:40,355 | INFO | Starting walk-forward hyperparameter tuning with 20 trials on 5183 development rows
+2026-05-07 19:31:01,443 | INFO | Training rows=3723 validation rows=1460 test rows=1565
+2026-05-07 19:31:01,444 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-07 19:37:00,817 | INFO | Training rows=3723 validation rows=1460 test rows=1565
+2026-05-07 19:37:00,818 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-07 19:42:24,004 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 5183 development rows
+2026-05-07 19:56:38,486 | INFO | Training rows=3723 validation rows=1460 test rows=1565
+2026-05-07 19:56:38,487 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-07 19:57:26,406 | INFO | Running backtest on 1565 prediction rows
+2026-05-07 19:57:53,783 | INFO | Running backtest on 1565 prediction rows
+2026-05-07 21:41:05,637 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 5183 development rows
+2026-05-07 21:43:39,176 | INFO | Training rows=3723 validation rows=1460 test rows=1565
+2026-05-07 21:43:39,177 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-07 21:43:41,870 | INFO | Running backtest on 1565 prediction rows
+2026-05-07 21:54:18,451 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 5183 development rows
+2026-05-07 21:58:30,989 | INFO | Training rows=3723 validation rows=1460 test rows=1565
+2026-05-07 21:58:30,989 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-07 21:58:33,311 | INFO | Running backtest on 1565 prediction rows
+2026-05-07 23:22:52,109 | INFO | Training rows=3723 validation rows=1460 test rows=1565
+2026-05-07 23:22:52,110 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-07 23:24:37,213 | INFO | Running backtest on 1565 prediction rows
+2026-05-07 23:25:42,967 | INFO | Starting walk-forward hyperparameter tuning with 20 trials on 5183 development rows
+2026-05-07 23:29:19,292 | INFO | Training rows=3723 validation rows=1460 test rows=1565
+2026-05-07 23:29:19,292 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-07 23:29:22,582 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 11:53:44,483 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 11:58:10,160 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 12:03:05,573 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 12:12:54,137 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 12:20:08,700 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 12:29:52,919 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 12:32:04,014 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 15:22:38,577 | INFO | Starting walk-forward hyperparameter tuning with 20 trials on 5183 development rows
+2026-05-08 15:27:34,926 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 5183 development rows
+2026-05-08 15:30:07,907 | INFO | Training rows=3723 validation rows=1460 test rows=1565
+2026-05-08 15:30:07,907 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-08 15:30:09,349 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 15:37:18,183 | INFO | Starting walk-forward hyperparameter tuning with 20 trials on 5183 development rows
+2026-05-08 15:50:14,467 | INFO | Loading raw datasets
+2026-05-08 15:50:14,582 | INFO | Building quarterly feature blocks
+2026-05-08 15:50:20,668 | INFO | Starting walk-forward hyperparameter tuning with 20 trials on 5183 development rows
+2026-05-08 15:52:35,405 | INFO | Training rows=3723 validation rows=1460 test rows=1565
+2026-05-08 15:52:35,405 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-08 15:52:36,658 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 15:54:27,204 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 15:54:32,905 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 15:54:40,579 | INFO | Running backtest on 1565 prediction rows
+2026-05-08 16:11:16,927 | INFO | Fetching S&P 500 universe
+2026-05-08 16:11:17,148 | INFO | Fetching equity data for MMM (1/200)
+2026-05-08 16:11:18,553 | INFO | Fetching equity data for AOS (2/200)
+2026-05-08 16:11:19,210 | INFO | Fetching equity data for ABT (3/200)
+2026-05-08 16:11:19,896 | INFO | Fetching equity data for ABBV (4/200)
+2026-05-08 16:11:20,469 | INFO | Fetching equity data for ACN (5/200)
+2026-05-08 16:11:21,105 | INFO | Fetching equity data for ADBE (6/200)
+2026-05-08 16:11:21,779 | INFO | Fetching equity data for AMD (7/200)
+2026-05-08 16:11:22,686 | INFO | Fetching equity data for AES (8/200)
+2026-05-08 16:11:23,375 | INFO | Fetching equity data for AFL (9/200)
+2026-05-08 16:11:23,984 | INFO | Fetching equity data for A (10/200)
+2026-05-08 16:11:24,613 | INFO | Fetching equity data for APD (11/200)
+2026-05-08 16:11:25,297 | INFO | Fetching equity data for ABNB (12/200)
+2026-05-08 16:11:25,768 | INFO | Fetching equity data for AKAM (13/200)
+2026-05-08 16:11:26,341 | INFO | Fetching equity data for ALB (14/200)
+2026-05-08 16:11:26,975 | INFO | Fetching equity data for ARE (15/200)
+2026-05-08 16:11:27,726 | INFO | Fetching equity data for ALGN (16/200)
+2026-05-08 16:11:28,327 | INFO | Fetching equity data for ALLE (17/200)
+2026-05-08 16:11:28,933 | INFO | Fetching equity data for LNT (18/200)
+2026-05-08 16:11:29,632 | INFO | Fetching equity data for ALL (19/200)
+2026-05-08 16:11:30,301 | INFO | Fetching equity data for GOOGL (20/200)
+2026-05-08 16:11:30,858 | INFO | Fetching equity data for GOOG (21/200)
+2026-05-08 16:11:31,527 | INFO | Fetching equity data for MO (22/200)
+2026-05-08 16:11:32,223 | INFO | Fetching equity data for AMZN (23/200)
+2026-05-08 16:11:32,852 | INFO | Fetching equity data for AMCR (24/200)
+2026-05-08 16:11:33,390 | INFO | Fetching equity data for AEE (25/200)
+2026-05-08 16:11:34,012 | INFO | Fetching equity data for AEP (26/200)
+2026-05-08 16:11:34,778 | INFO | Fetching equity data for AXP (27/200)
+2026-05-08 16:11:35,479 | INFO | Fetching equity data for AIG (28/200)
+2026-05-08 16:11:36,119 | INFO | Fetching equity data for AMT (29/200)
+2026-05-08 16:11:36,916 | INFO | Fetching equity data for AWK (30/200)
+2026-05-08 16:11:37,484 | INFO | Fetching equity data for AMP (31/200)
+2026-05-08 16:11:38,853 | WARNING | Fetch failed for AMP: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:38,855 | INFO | Fetching equity data for AME (32/200)
+2026-05-08 16:11:40,280 | WARNING | Fetch failed for AME: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:40,281 | INFO | Fetching equity data for AMGN (33/200)
+2026-05-08 16:11:41,650 | WARNING | Fetch failed for AMGN: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:41,650 | INFO | Fetching equity data for APH (34/200)
+2026-05-08 16:11:43,057 | WARNING | Fetch failed for APH: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:43,058 | INFO | Fetching equity data for ADI (35/200)
+2026-05-08 16:11:44,495 | WARNING | Fetch failed for ADI: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:44,496 | INFO | Fetching equity data for ANSS (36/200)
+2026-05-08 16:11:45,614 | WARNING | Fetch failed for ANSS: Failed request: https://query1.finance.yahoo.com/v8/finance/chart/ANSS
+2026-05-08 16:11:45,615 | INFO | Fetching equity data for AON (37/200)
+2026-05-08 16:11:47,075 | WARNING | Fetch failed for AON: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:47,076 | INFO | Fetching equity data for APA (38/200)
+2026-05-08 16:11:48,551 | WARNING | Fetch failed for APA: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:48,552 | INFO | Fetching equity data for APO (39/200)
+2026-05-08 16:11:49,904 | WARNING | Fetch failed for APO: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:49,904 | INFO | Fetching equity data for AAPL (40/200)
+2026-05-08 16:11:51,320 | WARNING | Fetch failed for AAPL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:51,320 | INFO | Fetching equity data for AMAT (41/200)
+2026-05-08 16:11:52,722 | WARNING | Fetch failed for AMAT: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:52,723 | INFO | Fetching equity data for APTV (42/200)
+2026-05-08 16:11:54,089 | WARNING | Fetch failed for APTV: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:54,090 | INFO | Fetching equity data for ACGL (43/200)
+2026-05-08 16:11:55,464 | WARNING | Fetch failed for ACGL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:55,464 | INFO | Fetching equity data for ADM (44/200)
+2026-05-08 16:11:57,016 | WARNING | Fetch failed for ADM: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:57,016 | INFO | Fetching equity data for ANET (45/200)
+2026-05-08 16:11:58,394 | WARNING | Fetch failed for ANET: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:58,394 | INFO | Fetching equity data for AJG (46/200)
+2026-05-08 16:11:59,840 | WARNING | Fetch failed for AJG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:11:59,840 | INFO | Fetching equity data for AIZ (47/200)
+2026-05-08 16:12:01,302 | WARNING | Fetch failed for AIZ: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:01,303 | INFO | Fetching equity data for T (48/200)
+2026-05-08 16:12:02,739 | WARNING | Fetch failed for T: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:02,740 | INFO | Fetching equity data for ATO (49/200)
+2026-05-08 16:12:04,308 | WARNING | Fetch failed for ATO: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:04,309 | INFO | Fetching equity data for ADSK (50/200)
+2026-05-08 16:12:05,707 | WARNING | Fetch failed for ADSK: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:05,708 | INFO | Fetching equity data for ADP (51/200)
+2026-05-08 16:12:07,176 | WARNING | Fetch failed for ADP: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:07,177 | INFO | Fetching equity data for AZO (52/200)
+2026-05-08 16:12:08,567 | WARNING | Fetch failed for AZO: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:08,567 | INFO | Fetching equity data for AVB (53/200)
+2026-05-08 16:12:10,002 | WARNING | Fetch failed for AVB: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:10,003 | INFO | Fetching equity data for AVY (54/200)
+2026-05-08 16:12:11,461 | WARNING | Fetch failed for AVY: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:11,462 | INFO | Fetching equity data for AXON (55/200)
+2026-05-08 16:12:12,843 | WARNING | Fetch failed for AXON: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:12,844 | INFO | Fetching equity data for BKR (56/200)
+2026-05-08 16:12:14,249 | WARNING | Fetch failed for BKR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:14,249 | INFO | Fetching equity data for BALL (57/200)
+2026-05-08 16:12:15,675 | WARNING | Fetch failed for BALL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:15,676 | INFO | Fetching equity data for BAC (58/200)
+2026-05-08 16:12:17,178 | WARNING | Fetch failed for BAC: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:17,179 | INFO | Fetching equity data for BAX (59/200)
+2026-05-08 16:12:18,647 | INFO | Fetching equity data for BDX (60/200)
+2026-05-08 16:12:19,368 | INFO | Fetching equity data for BRK-B (61/200)
+2026-05-08 16:12:20,123 | INFO | Fetching equity data for BBY (62/200)
+2026-05-08 16:12:20,722 | INFO | Fetching equity data for TECH (63/200)
+2026-05-08 16:12:21,358 | INFO | Fetching equity data for BIIB (64/200)
+2026-05-08 16:12:21,982 | INFO | Fetching equity data for BLK (65/200)
+2026-05-08 16:12:22,675 | INFO | Fetching equity data for BX (66/200)
+2026-05-08 16:12:23,314 | INFO | Fetching equity data for BK (67/200)
+2026-05-08 16:12:24,006 | INFO | Fetching equity data for BA (68/200)
+2026-05-08 16:12:24,820 | INFO | Fetching equity data for BKNG (69/200)
+2026-05-08 16:12:25,411 | INFO | Fetching equity data for BWA (70/200)
+2026-05-08 16:12:26,036 | INFO | Fetching equity data for BSX (71/200)
+2026-05-08 16:12:26,604 | INFO | Fetching equity data for BMY (72/200)
+2026-05-08 16:12:27,269 | INFO | Fetching equity data for AVGO (73/200)
+2026-05-08 16:12:27,859 | INFO | Fetching equity data for BR (74/200)
+2026-05-08 16:12:28,449 | INFO | Fetching equity data for BRO (75/200)
+2026-05-08 16:12:29,152 | INFO | Fetching equity data for BF-B (76/200)
+2026-05-08 16:12:30,526 | INFO | Fetching equity data for BLDR (77/200)
+2026-05-08 16:12:31,045 | INFO | Fetching equity data for BG (78/200)
+2026-05-08 16:12:31,630 | INFO | Fetching equity data for BXP (79/200)
+2026-05-08 16:12:32,236 | INFO | Fetching equity data for CHRW (80/200)
+2026-05-08 16:12:32,881 | INFO | Fetching equity data for CDNS (81/200)
+2026-05-08 16:12:33,462 | INFO | Fetching equity data for CZR (82/200)
+2026-05-08 16:12:34,046 | INFO | Fetching equity data for CPT (83/200)
+2026-05-08 16:12:34,701 | INFO | Fetching equity data for CPB (84/200)
+2026-05-08 16:12:35,631 | INFO | Fetching equity data for COF (85/200)
+2026-05-08 16:12:36,209 | INFO | Fetching equity data for CAH (86/200)
+2026-05-08 16:12:37,044 | INFO | Fetching equity data for KMX (87/200)
+2026-05-08 16:12:37,613 | INFO | Fetching equity data for CCL (88/200)
+2026-05-08 16:12:38,212 | INFO | Fetching equity data for CARR (89/200)
+2026-05-08 16:12:39,513 | WARNING | Fetch failed for CARR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:39,514 | INFO | Fetching equity data for CAT (90/200)
+2026-05-08 16:12:40,987 | WARNING | Fetch failed for CAT: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:40,988 | INFO | Fetching equity data for CBOE (91/200)
+2026-05-08 16:12:42,366 | WARNING | Fetch failed for CBOE: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:42,367 | INFO | Fetching equity data for CBRE (92/200)
+2026-05-08 16:12:43,812 | WARNING | Fetch failed for CBRE: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:43,812 | INFO | Fetching equity data for CDW (93/200)
+2026-05-08 16:12:45,175 | WARNING | Fetch failed for CDW: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:45,176 | INFO | Fetching equity data for CE (94/200)
+2026-05-08 16:12:46,572 | WARNING | Fetch failed for CE: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:46,573 | INFO | Fetching equity data for COR (95/200)
+2026-05-08 16:12:47,997 | WARNING | Fetch failed for COR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:47,998 | INFO | Fetching equity data for CNC (96/200)
+2026-05-08 16:12:49,395 | WARNING | Fetch failed for CNC: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:49,395 | INFO | Fetching equity data for CNP (97/200)
+2026-05-08 16:12:50,885 | WARNING | Fetch failed for CNP: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:50,885 | INFO | Fetching equity data for CF (98/200)
+2026-05-08 16:12:52,400 | WARNING | Fetch failed for CF: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:52,400 | INFO | Fetching equity data for CRL (99/200)
+2026-05-08 16:12:53,792 | WARNING | Fetch failed for CRL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:53,793 | INFO | Fetching equity data for SCHW (100/200)
+2026-05-08 16:12:55,318 | WARNING | Fetch failed for SCHW: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:55,319 | INFO | Fetching equity data for CHTR (101/200)
+2026-05-08 16:12:56,656 | WARNING | Fetch failed for CHTR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:56,656 | INFO | Fetching equity data for CVX (102/200)
+2026-05-08 16:12:58,248 | WARNING | Fetch failed for CVX: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:58,248 | INFO | Fetching equity data for CMG (103/200)
+2026-05-08 16:12:59,594 | WARNING | Fetch failed for CMG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:12:59,595 | INFO | Fetching equity data for CB (104/200)
+2026-05-08 16:13:01,849 | WARNING | Fetch failed for CB: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:01,850 | INFO | Fetching equity data for CHD (105/200)
+2026-05-08 16:13:03,276 | WARNING | Fetch failed for CHD: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:03,276 | INFO | Fetching equity data for CI (106/200)
+2026-05-08 16:13:04,688 | WARNING | Fetch failed for CI: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:04,688 | INFO | Fetching equity data for CINF (107/200)
+2026-05-08 16:13:06,160 | WARNING | Fetch failed for CINF: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:06,161 | INFO | Fetching equity data for CTAS (108/200)
+2026-05-08 16:13:07,545 | WARNING | Fetch failed for CTAS: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:07,545 | INFO | Fetching equity data for CSCO (109/200)
+2026-05-08 16:13:08,927 | WARNING | Fetch failed for CSCO: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:08,928 | INFO | Fetching equity data for C (110/200)
+2026-05-08 16:13:10,398 | WARNING | Fetch failed for C: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:10,399 | INFO | Fetching equity data for CFG (111/200)
+2026-05-08 16:13:11,734 | WARNING | Fetch failed for CFG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:11,735 | INFO | Fetching equity data for CLX (112/200)
+2026-05-08 16:13:13,153 | WARNING | Fetch failed for CLX: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:13,154 | INFO | Fetching equity data for CME (113/200)
+2026-05-08 16:13:14,574 | WARNING | Fetch failed for CME: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:14,575 | INFO | Fetching equity data for CMS (114/200)
+2026-05-08 16:13:16,033 | WARNING | Fetch failed for CMS: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:16,034 | INFO | Fetching equity data for KO (115/200)
+2026-05-08 16:13:17,479 | WARNING | Fetch failed for KO: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:17,479 | INFO | Fetching equity data for CTSH (116/200)
+2026-05-08 16:13:18,870 | INFO | Fetching equity data for CL (117/200)
+2026-05-08 16:13:19,537 | INFO | Fetching equity data for CMCSA (118/200)
+2026-05-08 16:13:20,239 | INFO | Fetching equity data for CAG (119/200)
+2026-05-08 16:13:20,888 | INFO | Fetching equity data for COP (120/200)
+2026-05-08 16:13:21,565 | INFO | Fetching equity data for ED (121/200)
+2026-05-08 16:13:22,264 | INFO | Fetching equity data for STZ (122/200)
+2026-05-08 16:13:22,865 | INFO | Fetching equity data for CEG (123/200)
+2026-05-08 16:13:23,347 | INFO | Fetching equity data for COO (124/200)
+2026-05-08 16:13:24,011 | INFO | Fetching equity data for CPRT (125/200)
+2026-05-08 16:13:24,656 | INFO | Fetching equity data for GLW (126/200)
+2026-05-08 16:13:25,453 | INFO | Fetching equity data for CPAY (127/200)
+2026-05-08 16:13:26,036 | INFO | Fetching equity data for CTVA (128/200)
+2026-05-08 16:13:26,596 | INFO | Fetching equity data for CSGP (129/200)
+2026-05-08 16:13:27,256 | INFO | Fetching equity data for COST (130/200)
+2026-05-08 16:13:27,914 | INFO | Fetching equity data for CTRA (131/200)
+2026-05-08 16:13:28,553 | INFO | Fetching equity data for CRWD (132/200)
+2026-05-08 16:13:29,033 | INFO | Fetching equity data for CCI (133/200)
+2026-05-08 16:13:29,858 | INFO | Fetching equity data for CSX (134/200)
+2026-05-08 16:13:30,510 | INFO | Fetching equity data for CMI (135/200)
+2026-05-08 16:13:31,163 | INFO | Fetching equity data for CVS (136/200)
+2026-05-08 16:13:31,847 | INFO | Fetching equity data for DHR (137/200)
+2026-05-08 16:13:32,606 | INFO | Fetching equity data for DRI (138/200)
+2026-05-08 16:13:33,657 | INFO | Fetching equity data for DVA (139/200)
+2026-05-08 16:13:34,285 | INFO | Fetching equity data for DAY (140/200)
+2026-05-08 16:13:35,400 | WARNING | Fetch failed for DAY: Failed request: https://query1.finance.yahoo.com/v8/finance/chart/DAY
+2026-05-08 16:13:35,400 | INFO | Fetching equity data for DECK (141/200)
+2026-05-08 16:13:35,976 | INFO | Fetching equity data for DE (142/200)
+2026-05-08 16:13:36,895 | INFO | Fetching equity data for DELL (143/200)
+2026-05-08 16:13:37,419 | INFO | Fetching equity data for DAL (144/200)
+2026-05-08 16:13:38,056 | INFO | Fetching equity data for DVN (145/200)
+2026-05-08 16:13:38,767 | INFO | Fetching equity data for DXCM (146/200)
+2026-05-08 16:13:39,300 | INFO | Fetching equity data for FANG (147/200)
+2026-05-08 16:13:40,719 | WARNING | Fetch failed for FANG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:40,720 | INFO | Fetching equity data for DLR (148/200)
+2026-05-08 16:13:42,148 | WARNING | Fetch failed for DLR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:42,149 | INFO | Fetching equity data for DFS (149/200)
+2026-05-08 16:13:43,310 | WARNING | Fetch failed for DFS: Failed request: https://query1.finance.yahoo.com/v8/finance/chart/DFS
+2026-05-08 16:13:43,311 | INFO | Fetching equity data for DG (150/200)
+2026-05-08 16:13:44,664 | WARNING | Fetch failed for DG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:44,665 | INFO | Fetching equity data for DLTR (151/200)
+2026-05-08 16:13:46,034 | WARNING | Fetch failed for DLTR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:46,035 | INFO | Fetching equity data for D (152/200)
+2026-05-08 16:13:47,473 | WARNING | Fetch failed for D: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:47,473 | INFO | Fetching equity data for DPZ (153/200)
+2026-05-08 16:13:48,835 | WARNING | Fetch failed for DPZ: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:48,836 | INFO | Fetching equity data for DOV (154/200)
+2026-05-08 16:13:50,245 | WARNING | Fetch failed for DOV: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:50,245 | INFO | Fetching equity data for DOW (155/200)
+2026-05-08 16:13:51,606 | WARNING | Fetch failed for DOW: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:51,606 | INFO | Fetching equity data for DHI (156/200)
+2026-05-08 16:13:53,072 | WARNING | Fetch failed for DHI: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:53,073 | INFO | Fetching equity data for DTE (157/200)
+2026-05-08 16:13:54,657 | WARNING | Fetch failed for DTE: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:54,658 | INFO | Fetching equity data for DUK (158/200)
+2026-05-08 16:13:56,111 | WARNING | Fetch failed for DUK: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:56,111 | INFO | Fetching equity data for DD (159/200)
+2026-05-08 16:13:57,618 | WARNING | Fetch failed for DD: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:57,619 | INFO | Fetching equity data for EMN (160/200)
+2026-05-08 16:13:59,063 | WARNING | Fetch failed for EMN: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:13:59,063 | INFO | Fetching equity data for ETN (161/200)
+2026-05-08 16:14:00,595 | WARNING | Fetch failed for ETN: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:00,595 | INFO | Fetching equity data for EBAY (162/200)
+2026-05-08 16:14:02,001 | WARNING | Fetch failed for EBAY: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:02,002 | INFO | Fetching equity data for ECL (163/200)
+2026-05-08 16:14:03,429 | WARNING | Fetch failed for ECL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:03,429 | INFO | Fetching equity data for EIX (164/200)
+2026-05-08 16:14:04,869 | WARNING | Fetch failed for EIX: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:04,869 | INFO | Fetching equity data for EW (165/200)
+2026-05-08 16:14:06,466 | WARNING | Fetch failed for EW: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:06,467 | INFO | Fetching equity data for EA (166/200)
+2026-05-08 16:14:07,843 | WARNING | Fetch failed for EA: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:07,843 | INFO | Fetching equity data for ELV (167/200)
+2026-05-08 16:14:09,262 | WARNING | Fetch failed for ELV: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:09,263 | INFO | Fetching equity data for EMR (168/200)
+2026-05-08 16:14:10,950 | WARNING | Fetch failed for EMR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:10,951 | INFO | Fetching equity data for ENPH (169/200)
+2026-05-08 16:14:12,375 | WARNING | Fetch failed for ENPH: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:12,375 | INFO | Fetching equity data for ETR (170/200)
+2026-05-08 16:14:13,861 | WARNING | Fetch failed for ETR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:13,862 | INFO | Fetching equity data for EOG (171/200)
+2026-05-08 16:14:15,293 | WARNING | Fetch failed for EOG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:15,293 | INFO | Fetching equity data for EPAM (172/200)
+2026-05-08 16:14:16,619 | WARNING | Fetch failed for EPAM: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:16,620 | INFO | Fetching equity data for EQT (173/200)
+2026-05-08 16:14:18,087 | WARNING | Fetch failed for EQT: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-08 16:14:18,087 | INFO | Fetching equity data for EFX (174/200)
+2026-05-08 16:14:19,163 | INFO | Fetching equity data for EQIX (175/200)
+2026-05-08 16:14:19,766 | INFO | Fetching equity data for EQR (176/200)
+2026-05-08 16:14:20,413 | INFO | Fetching equity data for ERIE (177/200)
+2026-05-08 16:14:21,061 | INFO | Fetching equity data for ESS (178/200)
+2026-05-08 16:14:21,695 | INFO | Fetching equity data for EL (179/200)
+2026-05-08 16:14:22,325 | INFO | Fetching equity data for EG (180/200)
+2026-05-08 16:14:22,929 | INFO | Fetching equity data for EVRG (181/200)
+2026-05-08 16:14:23,687 | INFO | Fetching equity data for ES (182/200)
+2026-05-08 16:14:24,350 | INFO | Fetching equity data for EXC (183/200)
+2026-05-08 16:14:25,061 | INFO | Fetching equity data for EXPE (184/200)
+2026-05-08 16:14:25,660 | INFO | Fetching equity data for EXPD (185/200)
+2026-05-08 16:14:26,276 | INFO | Fetching equity data for EXR (186/200)
+2026-05-08 16:14:26,842 | INFO | Fetching equity data for XOM (187/200)
+2026-05-08 16:14:27,587 | INFO | Fetching equity data for FFIV (188/200)
+2026-05-08 16:14:28,129 | INFO | Fetching equity data for FDS (189/200)
+2026-05-08 16:14:28,724 | INFO | Fetching equity data for FICO (190/200)
+2026-05-08 16:14:29,335 | INFO | Fetching equity data for FAST (191/200)
+2026-05-08 16:14:29,950 | INFO | Fetching equity data for FRT (192/200)
+2026-05-08 16:14:30,585 | INFO | Fetching equity data for FDX (193/200)
+2026-05-08 16:14:31,180 | INFO | Fetching equity data for FIS (194/200)
+2026-05-08 16:14:32,081 | INFO | Fetching equity data for FITB (195/200)
+2026-05-08 16:14:32,706 | INFO | Fetching equity data for FSLR (196/200)
+2026-05-08 16:14:33,241 | INFO | Fetching equity data for FE (197/200)
+2026-05-08 16:14:33,901 | INFO | Fetching equity data for FI (198/200)
+2026-05-08 16:14:35,111 | WARNING | Fetch failed for FI: Failed request: https://query1.finance.yahoo.com/v8/finance/chart/FI
+2026-05-08 16:14:35,112 | INFO | Fetching equity data for FMC (199/200)
+2026-05-08 16:14:35,756 | INFO | Fetching equity data for F (200/200)
+2026-05-08 16:14:45,672 | INFO | Loading raw datasets
+2026-05-08 16:14:45,784 | INFO | Building quarterly feature blocks
+2026-05-08 16:14:57,077 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 7368 development rows
+2026-05-08 16:16:24,063 | INFO | Training rows=5391 validation rows=1977 test rows=2155
+2026-05-08 16:16:24,064 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-08 16:16:25,577 | INFO | Running backtest on 2155 prediction rows
+2026-05-11 10:34:20,756 | INFO | Training rows=5391 validation rows=1977 test rows=2155
+2026-05-11 10:34:20,757 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-11 10:39:56,676 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 7368 development rows
+2026-05-11 10:41:03,614 | INFO | Training rows=5391 validation rows=1977 test rows=2155
+2026-05-11 10:41:03,614 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-11 10:41:04,823 | INFO | Running backtest on 2155 prediction rows
+2026-05-11 11:26:07,749 | INFO | Loading raw datasets
+2026-05-11 11:26:07,936 | INFO | Building quarterly feature blocks
+2026-05-11 11:28:53,996 | INFO | Loading raw datasets
+2026-05-11 11:28:54,166 | INFO | Building quarterly feature blocks
+2026-05-11 11:29:05,485 | INFO | Starting walk-forward hyperparameter tuning with 20 trials on 7368 development rows
+2026-05-11 11:30:06,617 | INFO | Training rows=5391 validation rows=1977 test rows=2155
+2026-05-11 11:30:06,617 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-11 11:30:07,961 | INFO | Running backtest on 2155 prediction rows
+2026-05-11 11:42:02,216 | INFO | Loading raw datasets
+2026-05-11 11:42:02,345 | INFO | Building quarterly feature blocks
+2026-05-11 11:43:20,289 | INFO | Loading raw datasets
+2026-05-11 11:43:20,393 | INFO | Building quarterly feature blocks
+2026-05-11 11:43:34,406 | INFO | Starting walk-forward hyperparameter tuning with 20 trials on 7368 development rows
+2026-05-11 11:44:23,259 | INFO | Training rows=5391 validation rows=1977 test rows=2155
+2026-05-11 11:44:23,260 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-11 11:44:24,443 | INFO | Running backtest on 2155 prediction rows
+2026-05-11 11:49:03,082 | INFO | Loading raw datasets
+2026-05-11 11:49:03,199 | INFO | Building quarterly feature blocks
+2026-05-11 11:49:42,040 | INFO | Loading raw datasets
+2026-05-11 11:49:42,182 | INFO | Building quarterly feature blocks
+2026-05-11 11:49:54,892 | INFO | Starting walk-forward hyperparameter tuning with 20 trials on 7368 development rows
+2026-05-11 11:50:49,574 | INFO | Training rows=5391 validation rows=1977 test rows=2155
+2026-05-11 11:50:49,575 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-11 11:50:50,738 | INFO | Running backtest on 2155 prediction rows
+2026-05-11 11:57:38,877 | INFO | Loading raw datasets
+2026-05-11 11:57:39,024 | INFO | Building quarterly feature blocks
+2026-05-11 11:57:49,421 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-11 11:58:58,042 | INFO | Loading raw datasets
+2026-05-11 11:58:58,175 | INFO | Building quarterly feature blocks
+2026-05-11 11:59:08,414 | INFO | Applied start-year filter >= 2015-01-01: kept 4524 of 9523 rows
+2026-05-11 11:59:09,708 | INFO | Starting walk-forward hyperparameter tuning with 20 trials on 3612 development rows
+2026-05-11 11:59:25,803 | INFO | Training rows=2670 validation rows=942 test rows=912
+2026-05-11 11:59:25,804 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-11 11:59:26,936 | INFO | Running backtest on 912 prediction rows
+2026-05-11 12:01:18,611 | INFO | Loading raw datasets
+2026-05-11 12:01:18,749 | INFO | Building quarterly feature blocks
+2026-05-11 12:01:29,057 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-11 12:01:30,342 | INFO | Starting walk-forward hyperparameter tuning with 20 trials on 5135 development rows
+2026-05-11 12:02:02,180 | INFO | Training rows=3827 validation rows=1308 test rows=1336
+2026-05-11 12:02:02,181 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-11 12:02:03,444 | INFO | Running backtest on 1336 prediction rows
+2026-05-11 13:01:33,883 | INFO | Running backtest on 1336 prediction rows
+2026-05-11 13:05:49,742 | INFO | Loading raw datasets
+2026-05-11 13:05:49,899 | INFO | Building quarterly feature blocks
+2026-05-11 13:06:00,077 | INFO | Applied start-year filter >= 2005-01-01: kept 8231 of 9523 rows
+2026-05-11 13:06:01,373 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 6482 development rows
+2026-05-11 13:07:58,829 | INFO | Training rows=4778 validation rows=1704 test rows=1749
+2026-05-11 13:07:58,830 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-11 13:08:00,350 | INFO | Running backtest on 1749 prediction rows
+2026-05-11 13:09:09,085 | INFO | Loading raw datasets
+2026-05-11 13:09:09,232 | INFO | Building quarterly feature blocks
+2026-05-11 13:09:19,760 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-11 13:09:21,010 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 5135 development rows
+2026-05-11 13:09:54,648 | INFO | Training rows=3827 validation rows=1308 test rows=1336
+2026-05-11 13:09:54,648 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-11 13:09:55,877 | INFO | Running backtest on 1336 prediction rows
+2026-05-11 13:53:57,905 | INFO | Fetching S&P 500 universe
+2026-05-11 13:53:58,050 | INFO | Fetching equity data for MMM (1/400)
+2026-05-11 13:53:58,861 | INFO | Fetching equity data for AOS (2/400)
+2026-05-11 13:53:59,506 | INFO | Fetching equity data for ABT (3/400)
+2026-05-11 13:54:00,189 | INFO | Fetching equity data for ABBV (4/400)
+2026-05-11 13:54:00,859 | INFO | Fetching equity data for ACN (5/400)
+2026-05-11 13:54:02,636 | INFO | Fetching equity data for ADBE (6/400)
+2026-05-11 13:54:03,239 | INFO | Fetching equity data for AMD (7/400)
+2026-05-11 13:54:04,811 | INFO | Fetching equity data for AES (8/400)
+2026-05-11 13:54:05,464 | INFO | Fetching equity data for AFL (9/400)
+2026-05-11 13:54:06,186 | INFO | Fetching equity data for A (10/400)
+2026-05-11 13:54:06,741 | INFO | Fetching equity data for APD (11/400)
+2026-05-11 13:54:07,383 | INFO | Fetching equity data for ABNB (12/400)
+2026-05-11 13:54:07,799 | INFO | Fetching equity data for AKAM (13/400)
+2026-05-11 13:54:08,302 | INFO | Fetching equity data for ALB (14/400)
+2026-05-11 13:54:08,958 | INFO | Fetching equity data for ARE (15/400)
+2026-05-11 13:54:09,550 | INFO | Fetching equity data for ALGN (16/400)
+2026-05-11 13:54:10,080 | INFO | Fetching equity data for ALLE (17/400)
+2026-05-11 13:54:10,561 | INFO | Fetching equity data for LNT (18/400)
+2026-05-11 13:54:11,216 | INFO | Fetching equity data for ALL (19/400)
+2026-05-11 13:54:11,971 | INFO | Fetching equity data for GOOGL (20/400)
+2026-05-11 13:54:12,532 | INFO | Fetching equity data for GOOG (21/400)
+2026-05-11 13:54:13,150 | INFO | Fetching equity data for MO (22/400)
+2026-05-11 13:54:13,780 | INFO | Fetching equity data for AMZN (23/400)
+2026-05-11 13:54:14,303 | INFO | Fetching equity data for AMCR (24/400)
+2026-05-11 13:54:14,739 | INFO | Fetching equity data for AEE (25/400)
+2026-05-11 13:54:15,330 | INFO | Fetching equity data for AEP (26/400)
+2026-05-11 13:54:15,862 | INFO | Fetching equity data for AXP (27/400)
+2026-05-11 13:54:16,396 | INFO | Fetching equity data for AIG (28/400)
+2026-05-11 13:54:16,961 | INFO | Fetching equity data for AMT (29/400)
+2026-05-11 13:54:17,644 | INFO | Fetching equity data for AWK (30/400)
+2026-05-11 13:54:18,230 | INFO | Fetching equity data for AMP (31/400)
+2026-05-11 13:54:19,599 | WARNING | Fetch failed for AMP: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:19,599 | INFO | Fetching equity data for AME (32/400)
+2026-05-11 13:54:21,089 | WARNING | Fetch failed for AME: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:21,090 | INFO | Fetching equity data for AMGN (33/400)
+2026-05-11 13:54:22,459 | WARNING | Fetch failed for AMGN: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:22,460 | INFO | Fetching equity data for APH (34/400)
+2026-05-11 13:54:23,987 | WARNING | Fetch failed for APH: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:23,987 | INFO | Fetching equity data for ADI (35/400)
+2026-05-11 13:54:25,326 | WARNING | Fetch failed for ADI: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:25,326 | INFO | Fetching equity data for ANSS (36/400)
+2026-05-11 13:54:26,547 | WARNING | Fetch failed for ANSS: Failed request: https://query1.finance.yahoo.com/v8/finance/chart/ANSS
+2026-05-11 13:54:26,548 | INFO | Fetching equity data for AON (37/400)
+2026-05-11 13:54:27,865 | WARNING | Fetch failed for AON: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:27,865 | INFO | Fetching equity data for APA (38/400)
+2026-05-11 13:54:29,400 | WARNING | Fetch failed for APA: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:29,401 | INFO | Fetching equity data for APO (39/400)
+2026-05-11 13:54:30,755 | WARNING | Fetch failed for APO: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:30,756 | INFO | Fetching equity data for AAPL (40/400)
+2026-05-11 13:54:32,061 | WARNING | Fetch failed for AAPL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:32,061 | INFO | Fetching equity data for AMAT (41/400)
+2026-05-11 13:54:33,436 | WARNING | Fetch failed for AMAT: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:33,436 | INFO | Fetching equity data for APTV (42/400)
+2026-05-11 13:54:34,683 | WARNING | Fetch failed for APTV: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:34,684 | INFO | Fetching equity data for ACGL (43/400)
+2026-05-11 13:54:36,066 | WARNING | Fetch failed for ACGL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:36,067 | INFO | Fetching equity data for ADM (44/400)
+2026-05-11 13:54:37,433 | WARNING | Fetch failed for ADM: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:37,434 | INFO | Fetching equity data for ANET (45/400)
+2026-05-11 13:54:38,681 | WARNING | Fetch failed for ANET: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:38,682 | INFO | Fetching equity data for AJG (46/400)
+2026-05-11 13:54:40,107 | WARNING | Fetch failed for AJG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:40,108 | INFO | Fetching equity data for AIZ (47/400)
+2026-05-11 13:54:41,475 | WARNING | Fetch failed for AIZ: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:41,475 | INFO | Fetching equity data for T (48/400)
+2026-05-11 13:54:42,873 | WARNING | Fetch failed for T: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:42,874 | INFO | Fetching equity data for ATO (49/400)
+2026-05-11 13:54:44,233 | WARNING | Fetch failed for ATO: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:44,234 | INFO | Fetching equity data for ADSK (50/400)
+2026-05-11 13:54:45,619 | WARNING | Fetch failed for ADSK: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:45,620 | INFO | Fetching equity data for ADP (51/400)
+2026-05-11 13:54:47,082 | WARNING | Fetch failed for ADP: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:47,082 | INFO | Fetching equity data for AZO (52/400)
+2026-05-11 13:54:48,319 | WARNING | Fetch failed for AZO: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:48,319 | INFO | Fetching equity data for AVB (53/400)
+2026-05-11 13:54:49,671 | WARNING | Fetch failed for AVB: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:49,671 | INFO | Fetching equity data for AVY (54/400)
+2026-05-11 13:54:51,051 | WARNING | Fetch failed for AVY: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:51,052 | INFO | Fetching equity data for AXON (55/400)
+2026-05-11 13:54:52,436 | WARNING | Fetch failed for AXON: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:52,436 | INFO | Fetching equity data for BKR (56/400)
+2026-05-11 13:54:53,886 | WARNING | Fetch failed for BKR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:53,886 | INFO | Fetching equity data for BALL (57/400)
+2026-05-11 13:54:55,313 | WARNING | Fetch failed for BALL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:55,314 | INFO | Fetching equity data for BAC (58/400)
+2026-05-11 13:54:56,700 | WARNING | Fetch failed for BAC: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:56,700 | INFO | Fetching equity data for BAX (59/400)
+2026-05-11 13:54:58,200 | WARNING | Fetch failed for BAX: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:54:58,201 | INFO | Fetching equity data for BDX (60/400)
+2026-05-11 13:54:58,836 | INFO | Fetching equity data for BRK-B (61/400)
+2026-05-11 13:54:59,390 | INFO | Fetching equity data for BBY (62/400)
+2026-05-11 13:54:59,961 | INFO | Fetching equity data for TECH (63/400)
+2026-05-11 13:55:00,639 | INFO | Fetching equity data for BIIB (64/400)
+2026-05-11 13:55:01,210 | INFO | Fetching equity data for BLK (65/400)
+2026-05-11 13:55:01,776 | INFO | Fetching equity data for BX (66/400)
+2026-05-11 13:55:02,437 | INFO | Fetching equity data for BK (67/400)
+2026-05-11 13:55:02,985 | INFO | Fetching equity data for BA (68/400)
+2026-05-11 13:55:03,639 | INFO | Fetching equity data for BKNG (69/400)
+2026-05-11 13:55:04,309 | INFO | Fetching equity data for BWA (70/400)
+2026-05-11 13:55:04,938 | INFO | Fetching equity data for BSX (71/400)
+2026-05-11 13:55:05,463 | INFO | Fetching equity data for BMY (72/400)
+2026-05-11 13:55:06,191 | INFO | Fetching equity data for AVGO (73/400)
+2026-05-11 13:55:06,655 | INFO | Fetching equity data for BR (74/400)
+2026-05-11 13:55:07,115 | INFO | Fetching equity data for BRO (75/400)
+2026-05-11 13:55:07,802 | INFO | Fetching equity data for BF-B (76/400)
+2026-05-11 13:55:08,790 | INFO | Fetching equity data for BLDR (77/400)
+2026-05-11 13:55:09,797 | INFO | Fetching equity data for BG (78/400)
+2026-05-11 13:55:10,380 | INFO | Fetching equity data for BXP (79/400)
+2026-05-11 13:55:10,909 | INFO | Fetching equity data for CHRW (80/400)
+2026-05-11 13:55:11,391 | INFO | Fetching equity data for CDNS (81/400)
+2026-05-11 13:55:11,924 | INFO | Fetching equity data for CZR (82/400)
+2026-05-11 13:55:12,397 | INFO | Fetching equity data for CPT (83/400)
+2026-05-11 13:55:12,981 | INFO | Fetching equity data for CPB (84/400)
+2026-05-11 13:55:13,600 | INFO | Fetching equity data for COF (85/400)
+2026-05-11 13:55:14,246 | INFO | Fetching equity data for CAH (86/400)
+2026-05-11 13:55:14,905 | INFO | Fetching equity data for KMX (87/400)
+2026-05-11 13:55:15,442 | INFO | Fetching equity data for CCL (88/400)
+2026-05-11 13:55:16,085 | INFO | Fetching equity data for CARR (89/400)
+2026-05-11 13:55:16,579 | INFO | Fetching equity data for CAT (90/400)
+2026-05-11 13:55:18,036 | WARNING | Fetch failed for CAT: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:18,037 | INFO | Fetching equity data for CBOE (91/400)
+2026-05-11 13:55:19,258 | WARNING | Fetch failed for CBOE: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:19,258 | INFO | Fetching equity data for CBRE (92/400)
+2026-05-11 13:55:20,645 | WARNING | Fetch failed for CBRE: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:20,646 | INFO | Fetching equity data for CDW (93/400)
+2026-05-11 13:55:21,970 | WARNING | Fetch failed for CDW: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:21,971 | INFO | Fetching equity data for CE (94/400)
+2026-05-11 13:55:23,269 | WARNING | Fetch failed for CE: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:23,270 | INFO | Fetching equity data for COR (95/400)
+2026-05-11 13:55:24,776 | WARNING | Fetch failed for COR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:24,776 | INFO | Fetching equity data for CNC (96/400)
+2026-05-11 13:55:26,065 | WARNING | Fetch failed for CNC: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:26,066 | INFO | Fetching equity data for CNP (97/400)
+2026-05-11 13:55:27,569 | WARNING | Fetch failed for CNP: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:27,569 | INFO | Fetching equity data for CF (98/400)
+2026-05-11 13:55:29,030 | WARNING | Fetch failed for CF: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:29,031 | INFO | Fetching equity data for CRL (99/400)
+2026-05-11 13:55:30,408 | WARNING | Fetch failed for CRL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:30,409 | INFO | Fetching equity data for SCHW (100/400)
+2026-05-11 13:55:31,813 | WARNING | Fetch failed for SCHW: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:31,814 | INFO | Fetching equity data for CHTR (101/400)
+2026-05-11 13:55:33,056 | WARNING | Fetch failed for CHTR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:33,057 | INFO | Fetching equity data for CVX (102/400)
+2026-05-11 13:55:34,718 | WARNING | Fetch failed for CVX: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:34,719 | INFO | Fetching equity data for CMG (103/400)
+2026-05-11 13:55:36,030 | WARNING | Fetch failed for CMG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:36,030 | INFO | Fetching equity data for CB (104/400)
+2026-05-11 13:55:37,388 | WARNING | Fetch failed for CB: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:37,389 | INFO | Fetching equity data for CHD (105/400)
+2026-05-11 13:55:38,794 | WARNING | Fetch failed for CHD: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:38,795 | INFO | Fetching equity data for CI (106/400)
+2026-05-11 13:55:40,243 | WARNING | Fetch failed for CI: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:40,243 | INFO | Fetching equity data for CINF (107/400)
+2026-05-11 13:55:41,776 | WARNING | Fetch failed for CINF: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:41,777 | INFO | Fetching equity data for CTAS (108/400)
+2026-05-11 13:55:43,154 | WARNING | Fetch failed for CTAS: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:43,154 | INFO | Fetching equity data for CSCO (109/400)
+2026-05-11 13:55:44,420 | WARNING | Fetch failed for CSCO: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:44,421 | INFO | Fetching equity data for C (110/400)
+2026-05-11 13:55:45,779 | WARNING | Fetch failed for C: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:45,780 | INFO | Fetching equity data for CFG (111/400)
+2026-05-11 13:55:47,048 | WARNING | Fetch failed for CFG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:47,049 | INFO | Fetching equity data for CLX (112/400)
+2026-05-11 13:55:48,424 | WARNING | Fetch failed for CLX: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:48,425 | INFO | Fetching equity data for CME (113/400)
+2026-05-11 13:55:49,735 | WARNING | Fetch failed for CME: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:49,735 | INFO | Fetching equity data for CMS (114/400)
+2026-05-11 13:55:51,231 | WARNING | Fetch failed for CMS: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:51,232 | INFO | Fetching equity data for KO (115/400)
+2026-05-11 13:55:52,623 | WARNING | Fetch failed for KO: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:52,624 | INFO | Fetching equity data for CTSH (116/400)
+2026-05-11 13:55:54,004 | WARNING | Fetch failed for CTSH: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:54,005 | INFO | Fetching equity data for CL (117/400)
+2026-05-11 13:55:55,459 | WARNING | Fetch failed for CL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:55,460 | INFO | Fetching equity data for CMCSA (118/400)
+2026-05-11 13:55:56,747 | WARNING | Fetch failed for CMCSA: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:56,747 | INFO | Fetching equity data for CAG (119/400)
+2026-05-11 13:55:58,097 | WARNING | Fetch failed for CAG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:55:58,097 | INFO | Fetching equity data for COP (120/400)
+2026-05-11 13:55:59,142 | INFO | Fetching equity data for ED (121/400)
+2026-05-11 13:55:59,813 | INFO | Fetching equity data for STZ (122/400)
+2026-05-11 13:56:02,264 | INFO | Fetching equity data for CEG (123/400)
+2026-05-11 13:56:02,626 | INFO | Fetching equity data for COO (124/400)
+2026-05-11 13:56:03,257 | INFO | Fetching equity data for CPRT (125/400)
+2026-05-11 13:56:03,878 | INFO | Fetching equity data for GLW (126/400)
+2026-05-11 13:56:04,508 | INFO | Fetching equity data for CPAY (127/400)
+2026-05-11 13:56:04,994 | INFO | Fetching equity data for CTVA (128/400)
+2026-05-11 13:56:05,490 | INFO | Fetching equity data for CSGP (129/400)
+2026-05-11 13:56:06,068 | INFO | Fetching equity data for COST (130/400)
+2026-05-11 13:56:06,811 | INFO | Fetching equity data for CTRA (131/400)
+2026-05-11 13:56:07,454 | INFO | Fetching equity data for CRWD (132/400)
+2026-05-11 13:56:08,215 | INFO | Fetching equity data for CCI (133/400)
+2026-05-11 13:56:09,041 | INFO | Fetching equity data for CSX (134/400)
+2026-05-11 13:56:09,685 | INFO | Fetching equity data for CMI (135/400)
+2026-05-11 13:56:10,291 | INFO | Fetching equity data for CVS (136/400)
+2026-05-11 13:56:10,892 | INFO | Fetching equity data for DHR (137/400)
+2026-05-11 13:56:11,517 | INFO | Fetching equity data for DRI (138/400)
+2026-05-11 13:56:12,180 | INFO | Fetching equity data for DVA (139/400)
+2026-05-11 13:56:12,603 | INFO | Fetching equity data for DAY (140/400)
+2026-05-11 13:56:13,777 | WARNING | Fetch failed for DAY: Failed request: https://query1.finance.yahoo.com/v8/finance/chart/DAY
+2026-05-11 13:56:13,777 | INFO | Fetching equity data for DECK (141/400)
+2026-05-11 13:56:14,342 | INFO | Fetching equity data for DE (142/400)
+2026-05-11 13:56:15,012 | INFO | Fetching equity data for DELL (143/400)
+2026-05-11 13:56:15,492 | INFO | Fetching equity data for DAL (144/400)
+2026-05-11 13:56:16,073 | INFO | Fetching equity data for DVN (145/400)
+2026-05-11 13:56:16,657 | INFO | Fetching equity data for DXCM (146/400)
+2026-05-11 13:56:17,140 | INFO | Fetching equity data for FANG (147/400)
+2026-05-11 13:56:17,660 | INFO | Fetching equity data for DLR (148/400)
+2026-05-11 13:56:18,244 | INFO | Fetching equity data for DFS (149/400)
+2026-05-11 13:56:19,283 | WARNING | Fetch failed for DFS: Failed request: https://query1.finance.yahoo.com/v8/finance/chart/DFS
+2026-05-11 13:56:19,283 | INFO | Fetching equity data for DG (150/400)
+2026-05-11 13:56:19,814 | INFO | Fetching equity data for DLTR (151/400)
+2026-05-11 13:56:20,316 | INFO | Fetching equity data for D (152/400)
+2026-05-11 13:56:21,804 | WARNING | Fetch failed for D: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:21,804 | INFO | Fetching equity data for DPZ (153/400)
+2026-05-11 13:56:23,253 | WARNING | Fetch failed for DPZ: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:23,253 | INFO | Fetching equity data for DOV (154/400)
+2026-05-11 13:56:24,576 | WARNING | Fetch failed for DOV: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:24,576 | INFO | Fetching equity data for DOW (155/400)
+2026-05-11 13:56:25,900 | WARNING | Fetch failed for DOW: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:25,901 | INFO | Fetching equity data for DHI (156/400)
+2026-05-11 13:56:27,276 | WARNING | Fetch failed for DHI: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:27,277 | INFO | Fetching equity data for DTE (157/400)
+2026-05-11 13:56:28,720 | WARNING | Fetch failed for DTE: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:28,720 | INFO | Fetching equity data for DUK (158/400)
+2026-05-11 13:56:30,086 | WARNING | Fetch failed for DUK: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:30,086 | INFO | Fetching equity data for DD (159/400)
+2026-05-11 13:56:31,625 | WARNING | Fetch failed for DD: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:31,626 | INFO | Fetching equity data for EMN (160/400)
+2026-05-11 13:56:32,987 | WARNING | Fetch failed for EMN: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:32,987 | INFO | Fetching equity data for ETN (161/400)
+2026-05-11 13:56:34,459 | WARNING | Fetch failed for ETN: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:34,459 | INFO | Fetching equity data for EBAY (162/400)
+2026-05-11 13:56:35,851 | WARNING | Fetch failed for EBAY: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:35,852 | INFO | Fetching equity data for ECL (163/400)
+2026-05-11 13:56:37,212 | WARNING | Fetch failed for ECL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:37,213 | INFO | Fetching equity data for EIX (164/400)
+2026-05-11 13:56:38,674 | WARNING | Fetch failed for EIX: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:38,675 | INFO | Fetching equity data for EW (165/400)
+2026-05-11 13:56:40,020 | WARNING | Fetch failed for EW: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:40,020 | INFO | Fetching equity data for EA (166/400)
+2026-05-11 13:56:41,361 | WARNING | Fetch failed for EA: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:41,361 | INFO | Fetching equity data for ELV (167/400)
+2026-05-11 13:56:42,866 | WARNING | Fetch failed for ELV: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:42,866 | INFO | Fetching equity data for EMR (168/400)
+2026-05-11 13:56:44,245 | WARNING | Fetch failed for EMR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:44,246 | INFO | Fetching equity data for ENPH (169/400)
+2026-05-11 13:56:45,483 | WARNING | Fetch failed for ENPH: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:45,483 | INFO | Fetching equity data for ETR (170/400)
+2026-05-11 13:56:46,981 | WARNING | Fetch failed for ETR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:46,981 | INFO | Fetching equity data for EOG (171/400)
+2026-05-11 13:56:48,433 | WARNING | Fetch failed for EOG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:48,433 | INFO | Fetching equity data for EPAM (172/400)
+2026-05-11 13:56:49,656 | WARNING | Fetch failed for EPAM: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:49,656 | INFO | Fetching equity data for EQT (173/400)
+2026-05-11 13:56:51,057 | WARNING | Fetch failed for EQT: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:51,058 | INFO | Fetching equity data for EFX (174/400)
+2026-05-11 13:56:52,380 | WARNING | Fetch failed for EFX: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:52,381 | INFO | Fetching equity data for EQIX (175/400)
+2026-05-11 13:56:53,701 | WARNING | Fetch failed for EQIX: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:53,701 | INFO | Fetching equity data for EQR (176/400)
+2026-05-11 13:56:55,026 | WARNING | Fetch failed for EQR: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:55,027 | INFO | Fetching equity data for ERIE (177/400)
+2026-05-11 13:56:56,562 | WARNING | Fetch failed for ERIE: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:56,562 | INFO | Fetching equity data for ESS (178/400)
+2026-05-11 13:56:57,998 | WARNING | Fetch failed for ESS: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:56:57,999 | INFO | Fetching equity data for EL (179/400)
+2026-05-11 13:56:59,442 | INFO | Fetching equity data for EG (180/400)
+2026-05-11 13:57:03,540 | INFO | Fetching equity data for EVRG (181/400)
+2026-05-11 13:57:04,208 | INFO | Fetching equity data for ES (182/400)
+2026-05-11 13:57:04,823 | INFO | Fetching equity data for EXC (183/400)
+2026-05-11 13:57:05,459 | INFO | Fetching equity data for EXPE (184/400)
+2026-05-11 13:57:05,941 | INFO | Fetching equity data for EXPD (185/400)
+2026-05-11 13:57:06,484 | INFO | Fetching equity data for EXR (186/400)
+2026-05-11 13:57:06,994 | INFO | Fetching equity data for XOM (187/400)
+2026-05-11 13:57:07,606 | INFO | Fetching equity data for FFIV (188/400)
+2026-05-11 13:57:08,154 | INFO | Fetching equity data for FDS (189/400)
+2026-05-11 13:57:08,715 | INFO | Fetching equity data for FICO (190/400)
+2026-05-11 13:57:09,339 | INFO | Fetching equity data for FAST (191/400)
+2026-05-11 13:57:09,939 | INFO | Fetching equity data for FRT (192/400)
+2026-05-11 13:57:10,599 | INFO | Fetching equity data for FDX (193/400)
+2026-05-11 13:57:11,291 | INFO | Fetching equity data for FIS (194/400)
+2026-05-11 13:57:12,116 | INFO | Fetching equity data for FITB (195/400)
+2026-05-11 13:57:12,686 | INFO | Fetching equity data for FSLR (196/400)
+2026-05-11 13:57:13,252 | INFO | Fetching equity data for FE (197/400)
+2026-05-11 13:57:13,781 | INFO | Fetching equity data for FI (198/400)
+2026-05-11 13:57:14,842 | WARNING | Fetch failed for FI: Failed request: https://query1.finance.yahoo.com/v8/finance/chart/FI
+2026-05-11 13:57:14,842 | INFO | Fetching equity data for FMC (199/400)
+2026-05-11 13:57:15,402 | INFO | Fetching equity data for F (200/400)
+2026-05-11 13:57:16,010 | INFO | Fetching equity data for FTNT (201/400)
+2026-05-11 13:57:16,505 | INFO | Fetching equity data for FTV (202/400)
+2026-05-11 13:57:17,005 | INFO | Fetching equity data for FOXA (203/400)
+2026-05-11 13:57:17,424 | INFO | Fetching equity data for FOX (204/400)
+2026-05-11 13:57:17,998 | INFO | Fetching equity data for BEN (205/400)
+2026-05-11 13:57:18,521 | INFO | Fetching equity data for FCX (206/400)
+2026-05-11 13:57:19,071 | INFO | Fetching equity data for GRMN (207/400)
+2026-05-11 13:57:19,572 | INFO | Fetching equity data for IT (208/400)
+2026-05-11 13:57:20,214 | INFO | Fetching equity data for GE (209/400)
+2026-05-11 13:57:21,050 | INFO | Fetching equity data for GEHC (210/400)
+2026-05-11 13:57:22,175 | WARNING | Fetch failed for GEHC: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:22,175 | INFO | Fetching equity data for GEV (211/400)
+2026-05-11 13:57:23,383 | WARNING | Fetch failed for GEV: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:23,383 | INFO | Fetching equity data for GEN (212/400)
+2026-05-11 13:57:24,623 | WARNING | Fetch failed for GEN: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:24,624 | INFO | Fetching equity data for GNRC (213/400)
+2026-05-11 13:57:25,869 | WARNING | Fetch failed for GNRC: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:25,870 | INFO | Fetching equity data for GD (214/400)
+2026-05-11 13:57:27,257 | WARNING | Fetch failed for GD: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:27,258 | INFO | Fetching equity data for GIS (215/400)
+2026-05-11 13:57:28,603 | WARNING | Fetch failed for GIS: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:28,603 | INFO | Fetching equity data for GM (216/400)
+2026-05-11 13:57:30,009 | WARNING | Fetch failed for GM: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:30,010 | INFO | Fetching equity data for GPC (217/400)
+2026-05-11 13:57:31,451 | WARNING | Fetch failed for GPC: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:31,452 | INFO | Fetching equity data for GILD (218/400)
+2026-05-11 13:57:32,788 | WARNING | Fetch failed for GILD: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:32,789 | INFO | Fetching equity data for GPN (219/400)
+2026-05-11 13:57:34,209 | WARNING | Fetch failed for GPN: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:34,210 | INFO | Fetching equity data for GL (220/400)
+2026-05-11 13:57:35,608 | WARNING | Fetch failed for GL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:35,608 | INFO | Fetching equity data for GDDY (221/400)
+2026-05-11 13:57:40,828 | WARNING | Fetch failed for GDDY: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:40,829 | INFO | Fetching equity data for GS (222/400)
+2026-05-11 13:57:42,119 | WARNING | Fetch failed for GS: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:42,119 | INFO | Fetching equity data for HAL (223/400)
+2026-05-11 13:57:43,503 | WARNING | Fetch failed for HAL: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:43,503 | INFO | Fetching equity data for HIG (224/400)
+2026-05-11 13:57:44,880 | WARNING | Fetch failed for HIG: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:44,880 | INFO | Fetching equity data for HAS (225/400)
+2026-05-11 13:57:46,294 | WARNING | Fetch failed for HAS: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:46,294 | INFO | Fetching equity data for HCA (226/400)
+2026-05-11 13:57:47,659 | WARNING | Fetch failed for HCA: Failed request: https://finnhub.io/api/v1/stock/metric
+2026-05-11 13:57:47,659 | INFO | Fetching equity data for DOC (227/400)
+2026-05-11 13:58:45,346 | INFO | Loading raw datasets
+2026-05-11 13:58:45,443 | INFO | Building quarterly feature blocks
+2026-05-11 13:58:55,320 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-11 13:58:56,588 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 5135 development rows
+2026-05-11 13:59:43,699 | INFO | Training rows=3827 validation rows=1308 test rows=1336
+2026-05-11 13:59:43,699 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-11 13:59:44,954 | INFO | Running backtest on 1336 prediction rows
+2026-05-11 14:07:18,459 | INFO | Running backtest on 1336 prediction rows
+2026-05-11 14:31:55,746 | INFO | Training rows=3827 validation rows=1308 test rows=1336
+2026-05-11 14:31:55,747 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-11 14:32:53,260 | INFO | Loading raw datasets
+2026-05-11 14:32:53,331 | INFO | Building quarterly feature blocks
+2026-05-11 14:33:03,038 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-11 14:33:03,421 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 5135 development rows
+2026-05-11 14:34:05,095 | INFO | Training rows=3827 validation rows=1308 test rows=1336
+2026-05-11 14:34:05,096 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-11 14:34:06,482 | INFO | Running backtest on 1336 prediction rows
+2026-05-11 15:01:52,905 | INFO | Loading raw datasets
+2026-05-11 15:01:52,995 | INFO | Building quarterly feature blocks
+2026-05-11 15:02:02,810 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-11 16:33:30,166 | INFO | Running pe_lag_1q baseline with rows train=3827 val=1308 test=1336
+2026-05-11 16:59:45,580 | INFO | Running quarterly backtest on 1336 prediction rows
+2026-05-11 16:59:45,981 | INFO | Running 20-trading-day backtest on 1336 prediction rows
+2026-05-11 17:00:41,405 | INFO | Running 20-trading-day backtest on 1336 prediction rows
+2026-05-11 17:01:32,121 | INFO | Running 23-trading-day backtest on 1336 prediction rows
+2026-05-11 17:02:55,594 | INFO | Running 5-trading-day backtest on 1336 prediction rows
+2026-05-11 17:03:04,106 | INFO | Running 7-trading-day backtest on 1336 prediction rows
+2026-05-11 17:03:20,491 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:03:33,213 | INFO | Running 60-trading-day backtest on 1336 prediction rows
+2026-05-11 17:03:53,838 | INFO | Running 45-trading-day backtest on 1336 prediction rows
+2026-05-11 17:04:02,591 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:04:17,891 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:04:27,535 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:07:14,976 | INFO | Running 20-trading-day backtest on 1336 prediction rows
+2026-05-11 17:07:49,972 | INFO | Running 20-trading-day backtest on 1336 prediction rows
+2026-05-11 17:15:59,452 | INFO | Running 20-trading-day backtest on 1336 prediction rows
+2026-05-11 17:16:22,363 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:17:02,755 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:17:20,870 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:19:47,357 | INFO | Running quarterly backtest on 1336 prediction rows
+2026-05-11 17:20:12,297 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:23:18,507 | INFO | Running 60-trading-day backtest on 1336 prediction rows
+2026-05-11 17:25:31,058 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:25:41,814 | INFO | Running 45-trading-day backtest on 1336 prediction rows
+2026-05-11 17:29:40,746 | INFO | Running 20-trading-day backtest on 1336 prediction rows
+2026-05-11 17:30:35,501 | INFO | Running 45-trading-day backtest on 1336 prediction rows
+2026-05-11 17:30:51,659 | INFO | Running 60-trading-day backtest on 1336 prediction rows
+2026-05-11 17:31:19,574 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:31:38,440 | INFO | Running 60-trading-day backtest on 1336 prediction rows
+2026-05-11 17:34:19,957 | INFO | Running 60-trading-day backtest on 1336 prediction rows
+2026-05-11 17:34:34,393 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:34:43,606 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:34:54,993 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:35:01,171 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:37:04,949 | INFO | Running 60-trading-day backtest on 1336 prediction rows
+2026-05-11 17:37:33,784 | INFO | Running 60-trading-day backtest on 1336 prediction rows
+2026-05-11 17:37:41,608 | INFO | Running 60-trading-day backtest on 1336 prediction rows
+2026-05-11 17:42:39,989 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:43:31,443 | INFO | Running 45-trading-day backtest on 1336 prediction rows
+2026-05-11 17:43:49,729 | INFO | Running 15-trading-day backtest on 1336 prediction rows
+2026-05-11 17:50:24,262 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:50:43,465 | INFO | Running 60-trading-day backtest on 1336 prediction rows
+2026-05-11 17:51:00,709 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-11 17:51:39,415 | INFO | Running 60-trading-day backtest on 1336 prediction rows
+2026-05-12 16:20:57,315 | INFO | Loading raw datasets
+2026-05-12 16:20:57,497 | INFO | Building quarterly feature blocks
+2026-05-12 16:21:07,066 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-12 16:21:07,100 | INFO | Running pe_lag_1q baseline with rows train=3827 val=1308 test=1336
+2026-05-12 16:22:32,827 | INFO | Loading raw datasets
+2026-05-12 16:22:32,890 | INFO | Building quarterly feature blocks
+2026-05-12 16:22:42,393 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-12 16:22:42,426 | INFO | Running pe_lag_1q baseline with rows train=3827 val=1308 test=1336
+2026-05-12 21:08:24,077 | INFO | Running quarterly backtest on 1336 prediction rows
+2026-05-12 21:19:44,377 | INFO | Loading raw datasets
+2026-05-12 21:19:44,469 | INFO | Building quarterly feature blocks
+2026-05-12 21:19:53,927 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-12 21:19:54,310 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 5135 development rows
+2026-05-12 21:20:50,848 | INFO | Training rows=3827 validation rows=1308 test rows=1336
+2026-05-12 21:20:50,849 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-12 21:20:52,183 | INFO | Running quarterly backtest on 1336 prediction rows
+2026-05-12 21:21:46,277 | INFO | Running 60-trading-day backtest on 1336 prediction rows
+2026-05-12 21:21:53,136 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-12 21:22:03,068 | INFO | Running 45-trading-day backtest on 1336 prediction rows
+2026-05-12 21:22:09,470 | INFO | Running 30-trading-day backtest on 1336 prediction rows
+2026-05-12 22:43:29,685 | INFO | Loading raw datasets
+2026-05-12 22:43:29,956 | INFO | Building quarterly feature blocks
+2026-05-12 22:43:39,840 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-12 22:43:40,234 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 5135 development rows
+2026-05-12 22:44:36,381 | INFO | Training rows=3827 validation rows=1308 test rows=1336
+2026-05-12 22:44:36,382 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-12 22:44:38,199 | INFO | Running 45-trading-day backtest on 1336 prediction rows
+2026-05-20 13:12:15,321 | INFO | Loading raw datasets
+2026-05-20 13:12:15,652 | INFO | Building quarterly feature blocks
+2026-05-20 13:12:25,773 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-20 13:12:25,805 | INFO | Running pe_lag_1q baseline with rows train=3827 val=1308 test=1336
+2026-05-20 14:05:30,867 | INFO | Fetching S&P 500 universe
+2026-05-20 14:05:31,404 | INFO | Loading raw datasets
+2026-05-20 14:05:31,525 | INFO | Building quarterly feature blocks
+2026-05-20 14:05:41,985 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-20 14:05:42,481 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 5135 development rows
+2026-05-20 14:05:53,760 | INFO | Fetching S&P 500 universe
+2026-05-20 14:05:54,260 | INFO | Loading raw datasets
+2026-05-20 14:05:54,327 | INFO | Building quarterly feature blocks
+2026-05-20 14:06:04,574 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-20 14:06:05,092 | INFO | Starting walk-forward hyperparameter tuning with 25 trials on 5135 development rows
+2026-05-20 14:06:10,743 | INFO | Training rows=3827 validation rows=1308 test rows=1336
+2026-05-20 14:06:10,745 | INFO | Using tuned hyperparameters from /Users/wood.chen/Desktop/Research/TreeAgent/outputs/reports/best_params.json
+2026-05-20 14:06:12,397 | INFO | Running 60-trading-day backtest on 1336 prediction rows

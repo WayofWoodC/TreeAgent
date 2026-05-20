@@ -1,0 +1,16 @@
+{
+  "n_estimators": 900,
+  "learning_rate": 0.013980880749573609,
+  "max_depth": 2,
+  "min_child_weight": 19.62331037999536,
+  "gamma": 1.98838169790698,
+  "subsample": 0.8701129340009544,
+  "colsample_bytree": 0.7630937412953283,
+  "reg_alpha": 4.301893107058401,
+  "reg_lambda": 0.2676478850246532,
+  "cv_metric": "rmse",
+  "cv_rmse_mean": 94.43625649742222,
+  "cv_ic_mean": 0.7329106865558352,
+  "cv_best_iteration_mean": 198.0,
+  "n_folds": 9
+}
