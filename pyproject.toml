@@ -17,6 +17,7 @@ dependencies = [
   "optuna>=3.6",
   "joblib>=1.4",
   "python-dotenv>=1.0",
+  "lxml>=5.0",
 ]
 
 [project.scripts]
