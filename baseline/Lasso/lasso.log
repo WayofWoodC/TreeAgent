@@ -1,0 +1,5 @@
+2026-05-17 16:07:07,544 | INFO | Rebuilding dataset for Lasso baseline
+2026-05-17 16:07:07,545 | INFO | Loading raw datasets
+2026-05-17 16:07:07,696 | INFO | Building quarterly feature blocks
+2026-05-17 16:07:17,744 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-17 16:07:34,452 | INFO | Lasso baseline outputs written to /Users/wood.chen/Desktop/Research/TreeAgent/baseline/Lasso

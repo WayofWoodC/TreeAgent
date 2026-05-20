@@ -1,0 +1,14 @@
+{
+  "model_type": "lasso_regression",
+  "target_name": "target_pe_current",
+  "start_year": 2010,
+  "holding_period_days": 60,
+  "return_column": "holding_period_return",
+  "best_alpha": 10.0,
+  "val_rmse": 153.46155531516948,
+  "val_spearman_ic": 0.8591748186391234,
+  "val_r2": 0.01933655601111739,
+  "test_rmse": 135.12316131865236,
+  "test_spearman_ic": 0.8937419555330819,
+  "test_r2": 0.13083244817300987
+}

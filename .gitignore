@@ -14,7 +14,6 @@ __pycache__/
 # Data and generated outputs
 data/
 outputs/
-baseline/
 
 # macOS
 .DS_Store

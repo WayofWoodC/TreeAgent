@@ -1,0 +1,13 @@
+{
+  "val_rmse": 202.09081327052166,
+  "val_spearman_ic": 0.8591748186391234,
+  "val_r2": -0.7006460664687502,
+  "test_rmse": 144.56352420102223,
+  "test_spearman_ic": 0.8937419555330819,
+  "test_r2": 0.005141387575421041,
+  "baseline_name": "pe_lag_1q",
+  "target_name": "target_pe_current",
+  "start_year": 2010,
+  "holding_period_days": 60,
+  "return_column": "holding_period_return"
+}

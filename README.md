@@ -1,38 +1,31 @@
 # PE Quarterly Pipeline
 
-A command-line research pipeline for quarterly PE nowcasting, model tuning, training, backtesting, and latest-signal generation.
+Research repository for quarterly PE nowcasting, model training, backtesting, latest prediction export, and baseline comparisons.
 
-The repository builds a quarterly panel for an S&P 500-style universe, trains an XGBoost model on one of two targets, and evaluates the resulting signal in a long-short backtest.
+This README is based on the current repository structure and current runnable entry points.
 
-## Status
+## Installation
 
-This README reflects the current code in this repository.
+### Python requirement
 
-Verified on May 12, 2026:
-- `pip install -e .` succeeds from the repository root
-- the CLI entry point `pe-pipeline` is created correctly
+- Python `>= 3.10`
 
-## Environment Setup
-
-### Python
-
-Current package metadata requires:
-- Python `>=3.10`
-
-A Python 3.12 environment has already been verified for editable install.
-
-### Install
+### Editable install
 
 From the repository root:
 
 ```bash
-cd /Users/wood.chen/Desktop/Research/TreeAgent
+cd TreeAgent
 python -m pip install -e .
 ```
 
-### API Keys
+`pip install -e .` has already been verified for this repository.
 
-The repository expects three environment variables in `.env` or in the shell:
+## Environment Variables
+
+The repository reads keys from the shell or from `.env`.
+
+Current expected variables:
 
 ```bash
 FINNHUB_API_KEY=
@@ -40,9 +33,7 @@ FMP_API_KEY=
 FRED_API_KEY=
 ```
 
-You can create a local `.env` from `.env.example` and fill in the values.
-
-Example shell setup:
+Example:
 
 ```bash
 export FINNHUB_API_KEY="your_finnhub_key"
@@ -50,15 +41,25 @@ export FMP_API_KEY="your_fmp_key"
 export FRED_API_KEY="your_fred_key"
 ```
 
-Important notes:
-- `FINNHUB_API_KEY` is required for quarterly PE and fundamentals fetches.
-- `FRED_API_KEY` is recommended for macro fetches. If it is not set, the pipeline falls back to the FRED graph endpoint.
-- `FMP_API_KEY` is still present in config and `.env.example`, but the current fetch pipeline does not use FMP endpoints.
+Notes:
 
-### Example run: 200-stock direct PE workflow with 60-day holding period
+- `FINNHUB_API_KEY`
+  - Required for quarterly PE ratios and quarterly fundamentals.
+
+- `FRED_API_KEY`
+  - Recommended for macro series fetches.
+  - If missing, the code falls back to the FRED graph endpoint.
+
+- `FMP_API_KEY`
+  - Still present in config and `.env.example`.
+  - The current live fetch pipeline does not rely on FMP for the main workflow.
+
+## Typical Run Examples
+
+### Main model: direct PE, 200 names, 60-day holding period
 
 ```bash
-# no need to export if add keys in .env
+cd TreeAgent
 export FINNHUB_API_KEY="your_finnhub_key"
 export FRED_API_KEY="your_fred_key"
 export FMP_API_KEY="your_fmp_key"
@@ -70,60 +71,48 @@ pe-pipeline train --target-name target_pe_current
 pe-pipeline backtest --top-n 5 --periods 60
 ```
 
-## What The Pipeline Does
+### Classification baseline
 
-The pipeline has five main stages:
+```bash
+python -m baseline.classification.run_classification --start-year 2010 --periods 60
+```
 
-1. `fetch-data`
-- Fetches universe, daily prices, quarterly PE ratios, quarterly fundamentals, and macro series.
+### Lasso baseline
 
-2. `build-dataset`
-- Builds the quarterly modeling dataset.
-- Applies optional `--start-year` filtering.
-
-3. `tune`
-- Runs walk-forward hyperparameter tuning on the development set.
-
-4. `train`
-- Trains the final XGBoost model.
-- Writes model artifacts, predictions, metrics, and feature importance.
-
-5. `backtest`
-- Reads the latest trained model metadata and the latest test predictions.
-- Chooses the signal logic automatically based on the trained target.
-
-There is also:
-- `predict-latest` for latest-quarter ranked predictions
-- `baseline` for a `pe_lag_1q` baseline workflow
-- `run-all` for fetch -> build-dataset -> train -> backtest -> predict-latest
+```bash
+python -m baseline.Lasso.run_lasso --start-year 2010 --periods 60 --top-n 5
+```
 
 ## Data Providers
 
-Current live sources in code are:
+Current providers used by the code:
 
-- Universe:
+- Universe
   - Wikipedia S&P 500 constituents table
-  - with local fallback logic if the live request fails
+  - with local fallback logic
 
-- Daily prices:
+- Daily prices
   - Yahoo Finance chart endpoint
 
-- Quarterly PE ratios:
+- Quarterly PE ratios
   - Finnhub `stock/metric`
 
-- Quarterly fundamentals:
+- Quarterly fundamentals
   - Finnhub `stock/metric`
 
-- Macro:
-  - FRED official observations API when `FRED_API_KEY` is available
-  - fallback to the FRED graph CSV endpoint
-  - fallback again to existing local raw macro files if all live fetches fail
+- Macro
+  - FRED API
+  - fallback to FRED graph CSV
+  - fallback to existing local macro raw files if all live requests fail
 
-## Repository Layout
+## Repository Structure
 
 ```text
 TreeAgent/
 ├── baseline/
+│   ├── prelag/
+│   ├── classification/
+│   └── Lasso/
 ├── data/
 │   ├── raw/
 │   ├── intermediate/
@@ -146,36 +135,64 @@ TreeAgent/
 └── README.md
 ```
 
-### Directory Meanings
+### Main folders
 
 - `pe_pipeline/`
-  - package source code
+  - Main package source code.
+  - This is where the production pipeline logic lives.
+
+- `pe_pipeline/data_sources/`
+  - External data fetchers.
+  - Universe, prices, PE ratios, fundamentals, macro.
+
+- `pe_pipeline/features/`
+  - Feature engineering and target construction.
+  - Daily, macro, PE, fundamentals, dataset merge logic.
+
+- `pe_pipeline/modeling/`
+  - Feature selection, preprocessing, time split logic, training, tuning, model artifacts.
+
+- `pe_pipeline/backtesting/`
+  - Signal-to-portfolio conversion, forward return attachment, summary metrics, return/equity plots.
+
+- `pe_pipeline/pipelines/`
+  - Top-level workflows behind CLI commands such as `fetch-data`, `train`, `backtest`, and `run-all`.
 
 - `data/raw/`
-  - raw fetched source data in CSV and Parquet
+  - Raw fetched data.
+  - CSV and Parquet.
 
 - `data/intermediate/`
-  - intermediate feature tables and latest merged feature snapshot
+  - Intermediate feature tables and merged latest-quarter feature snapshots.
 
 - `data/processed/`
-  - final quarterly modeling dataset
+  - Final modeling dataset used by `train` and `tune`.
 
 - `data/predictions/`
-  - latest ranked predictions written by `predict-latest`
+  - Latest ranked prediction export from `predict-latest`.
 
 - `outputs/models/`
-  - trained XGBoost model, preprocessor, model metadata
+  - Trained model files and metadata.
 
 - `outputs/reports/`
-  - training metrics, validation/test predictions, feature importance, tuning results, data quality report
+  - Training metrics, feature importance, validation/test predictions, tuning results, data quality report.
 
 - `outputs/backtests/`
-  - backtest return tables, portfolio summary/stats, return plot, equity curve plot
+  - Main model backtest results, quarterly return tables, summary stats, and plots.
 
-- `baseline/`
-  - baseline code and baseline-specific outputs
+- `baseline/prelag/`
+  - Previous-quarter PE baseline outputs.
 
-## CLI Overview
+- `baseline/classification/`
+  - 3-class baseline outputs.
+
+- `baseline/Lasso/`
+  - Lasso regression baseline outputs.
+
+- `tests/`
+  - Repository tests for data construction, splits, targets, and backtest logic.
+
+## Main CLI Commands
 
 Top-level help:
 
@@ -196,80 +213,97 @@ Available commands:
 
 ## Command Reference
 
-### 1. `fetch-data`
+### `fetch-data`
+
+Fetch raw data into `data/raw/`.
 
 ```bash
 pe-pipeline fetch-data [--limit N]
 ```
 
-Arguments:
+Optional parameters:
+
 - `--limit N`
-  - Optional.
-  - Restricts the fetched universe to the first `N` tickers after universe construction.
-  - Useful for smoke tests.
+  - Restrict the fetched universe to the first `N` names.
+  - Useful for smoke tests or smaller runs.
 
 Writes:
+
 - `data/raw/universe.*`
 - `data/raw/prices/daily_prices.*`
 - `data/raw/pe_ratios/quarterly_pe_ratios.*`
 - `data/raw/fundamentals/quarterly_fundamentals.*`
 - `data/raw/macro/macro_series.*`
 
-### 2. `build-dataset`
+### `build-dataset`
+
+Build the final modeling dataset from the raw files.
 
 ```bash
 pe-pipeline build-dataset --target-name {target_pe_current,target_pe_scaled_change} [--start-year YYYY]
 ```
 
-Arguments:
+Optional parameters:
+
 - `--target-name`
   - `target_pe_current`
   - `target_pe_scaled_change`
+
 - `--start-year YYYY`
-  - Optional.
-  - Keeps only rows with `quarter_end >= YYYY-01-01` after the dataset is built.
+  - Keep only rows with `quarter_end >= YYYY-01-01` after the dataset is built.
 
 Writes:
+
 - `data/processed/modeling_dataset.parquet`
 - `outputs/reports/data_quality_report.json`
 
-### 3. `tune`
+### `tune`
+
+Run walk-forward tuning on the processed dataset.
 
 ```bash
 pe-pipeline tune --target-name {target_pe_current,target_pe_scaled_change} --metric {rmse,spearman} [--n-trials N]
 ```
 
-Arguments:
-- `--target-name`
-  - Training target used during tuning.
-- `--metric`
-  - `rmse`: choose hyperparameters by lower walk-forward validation RMSE
-  - `spearman`: choose hyperparameters by higher walk-forward validation rank correlation
-- `--n-trials`
-  - Number of Optuna trials
+Optional parameters:
 
-Behavior:
-- Uses walk-forward CV on the development set.
-- Leaves the final test block untouched.
+- `--target-name`
+  - Training target used for tuning.
+
+- `--metric`
+  - `rmse`
+  - `spearman`
+
+- `--n-trials N`
+  - Number of Optuna trials.
+  - Default is `25`.
 
 Writes:
+
 - `outputs/reports/best_params.json`
 - `outputs/reports/tuning_results.csv`
 
-### 4. `train`
+### `train`
+
+Train the main XGBoost regression model.
 
 ```bash
 pe-pipeline train --target-name {target_pe_current,target_pe_scaled_change}
 ```
 
+Optional parameters:
+
+- `--target-name`
+  - Select the target used in model training.
+
 Behavior:
-- Loads `data/processed/modeling_dataset.parquet`
-- Applies the fixed time split
-- Automatically reads `outputs/reports/best_params.json` if it exists
-- Trains the XGBoost model
-- Saves validation and test predictions
+
+- Reads `data/processed/modeling_dataset.parquet`
+- Applies the fixed train / validation / test split
+- Uses tuned hyperparameters automatically if `outputs/reports/best_params.json` exists
 
 Writes:
+
 - `outputs/models/xgb_model.json`
 - `outputs/models/preprocessor.joblib`
 - `outputs/models/model_metadata.json`
@@ -278,273 +312,226 @@ Writes:
 - `outputs/reports/validation_predictions.csv`
 - `outputs/reports/test_predictions.csv`
 
-### 5. `backtest`
+### `backtest`
+
+Backtest the latest trained main model.
 
 ```bash
 pe-pipeline backtest [--top-n N] [--periods D]
 ```
 
-Arguments:
-- `--top-n N`
-  - Number of names in the long basket and number of names in the short basket.
-- `--periods D`
-  - Optional holding period in trading days.
-  - If omitted, uses the default next-quarter return.
-  - If provided, uses the realized forward return from the first trading day after signal formation through `D` trading days later.
+Optional parameters:
 
-Important behavior:
-- The signal logic is chosen automatically from the trained model metadata.
-- `backtest` does not ask you to specify the target again.
-- It reads `outputs/models/model_metadata.json` to determine how prediction should be converted into a signal.
+- `--top-n N`
+  - Number of long names and number of short names per rebalance quarter.
+  - Default is `20`.
+
+- `--periods D`
+  - Holding period in trading days.
+  - If omitted, the code uses next-quarter return.
+  - If provided, the code uses realized forward return over `D` trading days after quarter end.
+
+Behavior:
+
+- Reads `outputs/models/model_metadata.json`
+- Reads `outputs/reports/test_predictions.csv`
+- Chooses the signal logic automatically based on the trained target
 
 Writes:
+
 - `outputs/backtests/quarterly_returns.csv`
 - `outputs/backtests/portfolio_summary.json`
 - `outputs/backtests/portfolio_stats.csv`
 - `outputs/backtests/quarterly_returns_plot.svg`
-- `outputs/backtests/quarterly_returns_plot.png`
 - `outputs/backtests/equity_curves_plot.svg`
-- `outputs/backtests/equity_curves_plot.png`
 
-### 6. `baseline`
+### `baseline`
+
+Run the `prelag` baseline through the main CLI.
 
 ```bash
-pe-pipeline baseline --target-name {target_pe_current,target_pe_scaled_change} [--start-year YYYY] [--top-n N] [--periods D]
+pe-pipeline baseline --target-name {target_pe_current,target_pe_scaled_change} [--top-n N] [--start-year YYYY] [--periods D]
 ```
 
-Behavior:
-- Rebuilds the processed dataset using the requested target and optional start year
-- Uses a simple `pe_lag_1q` baseline prediction rule
-- Writes all baseline-specific outputs into the repository-level `baseline/` directory
+Optional parameters:
 
-Important note:
-- For `target_pe_current`, the baseline prediction is exactly `pe_lag_1q`.
-- The direct-PE trading signal is defined as relative change versus `pe_lag_1q`.
-- Therefore this baseline can produce a flat zero signal and a zero backtest by construction.
+- `--target-name`
+  - `target_pe_current`
+  - `target_pe_scaled_change`
 
-### 7. `predict-latest`
+- `--top-n N`
+  - Long basket size and short basket size for the baseline backtest.
+
+- `--start-year YYYY`
+  - Rebuild the dataset with a filtered start year before running the baseline.
+
+- `--periods D`
+  - Use `D`-trading-day forward return instead of next-quarter return.
+
+Writes into:
+
+- `baseline/prelag/`
+
+### `predict-latest`
+
+Generate the latest-quarter prediction export from the trained main model.
 
 ```bash
 pe-pipeline predict-latest
 ```
 
-Behavior:
-- Rebuilds the latest merged feature snapshot from raw data
-- Loads the latest trained model and preprocessor
-- Applies target-consistent signal logic
-- Sorts by signal descending
-
 Writes:
+
 - `data/predictions/latest_predictions.csv`
 
-### 8. `run-all`
+### `run-all`
+
+Run the main pipeline end to end.
 
 ```bash
 pe-pipeline run-all --target-name {target_pe_current,target_pe_scaled_change} [--top-n N] [--limit N] [--start-year YYYY] [--periods D]
 ```
 
+Optional parameters:
+
+- `--target-name`
+  - Main training target.
+
+- `--top-n N`
+  - Backtest basket size.
+
+- `--limit N`
+  - Universe size limit during raw fetch.
+
+- `--start-year YYYY`
+  - Dataset start-year filter.
+
+- `--periods D`
+  - Backtest holding period in trading days.
+
 Runs:
+
 1. `fetch-data`
 2. `build-dataset`
 3. `train`
 4. `backtest`
 5. `predict-latest`
 
-Important note:
+Note:
+
 - `run-all` does not run `tune`.
-- If you want tuned hyperparameters, run `tune` first and then `train`.
 
-## Target Definitions
+## Additional Baseline Commands
 
-Only two public training targets are currently supported.
+Two baselines currently live outside the main `pe-pipeline` CLI and are run directly as Python modules.
+
+### Prelag baseline
+
+This is the same baseline behind `pe-pipeline baseline`.
+
+```bash
+pe-pipeline baseline --target-name target_pe_current --start-year 2010 --top-n 5 --periods 60
+```
+
+Outputs:
+
+- `baseline/prelag/`
+
+### Classification baseline
+
+3-class tree classifier built from the same processed feature set.
+
+```bash
+python -m baseline.classification.run_classification --start-year 2010 --periods 60
+```
+
+Optional parameters:
+
+- `--start-year YYYY`
+- `--periods D`
+
+Outputs:
+
+- `baseline/classification/`
+
+### Lasso baseline
+
+Lasso regression baseline using the same feature set as the tree for direct PE nowcasting.
+
+```bash
+python -m baseline.Lasso.run_lasso --start-year 2010 --periods 60 --top-n 5
+```
+
+Optional parameters:
+
+- `--start-year YYYY`
+- `--periods D`
+- `--top-n N`
+
+Outputs:
+
+- `baseline/Lasso/`
+
+## Targets
+
+The main model currently supports two public targets.
 
 ### `target_pe_current`
 
-Definition:
-- current-quarter PE ratio
-
-Conceptually:
-- `y_t = PE_t`
+- Direct nowcast of current-quarter PE ratio.
 
 ### `target_pe_scaled_change`
 
-Definition:
-- current-quarter PE change versus previous quarter, scaled by the magnitude of previous-quarter PE
-
-Formula:
+- Current-quarter PE change versus previous-quarter PE, scaled by previous-quarter absolute PE magnitude:
 
 ```text
-target_pe_scaled_change = (PE_t - PE_{t-1}) / (abs(PE_{t-1}) + epsilon)
+(PE_t - PE_{t-1}) / (abs(PE_{t-1}) + epsilon)
 ```
 
-This is not plain percent change. The absolute value and epsilon are used to stabilize the target when lagged PE is negative or near zero.
+## Output Locations
 
-## How Backtest Signal Is Chosen
+### Main model
 
-This is important to avoid confusion.
+- Training metrics
+  - `outputs/reports/training_metrics.json`
 
-The backtest reads `outputs/models/model_metadata.json` and uses the saved `target_name`.
+- Hyperparameter search
+  - `outputs/reports/best_params.json`
+  - `outputs/reports/tuning_results.csv`
 
-### If the trained target is `target_pe_current`
+- Model metadata
+  - `outputs/models/model_metadata.json`
 
-The model predicts a PE level.
+- Main backtest
+  - `outputs/backtests/quarterly_returns.csv`
+  - `outputs/backtests/portfolio_summary.json`
+  - `outputs/backtests/portfolio_stats.csv`
 
-The backtest converts that into a trading signal using:
+- Latest predictions
+  - `data/predictions/latest_predictions.csv`
 
-```text
-signal = (prediction - pe_lag_1q) / abs(pe_lag_1q)
-```
+### Baselines
 
-This makes the signal consistent with a relative change view instead of ranking directly on raw PE level.
+- Prelag baseline
+  - `baseline/prelag/`
 
-### If the trained target is `target_pe_scaled_change`
+- Classification baseline
+  - `baseline/classification/`
 
-The model prediction is already the processed signal target.
+- Lasso baseline
+  - `baseline/Lasso/`
 
-The backtest uses:
+## Tests
 
-```text
-signal = prediction
-```
-
-### Ranking Rule
-
-For each quarter:
-- long the top `N` signals
-- short the bottom `N` signals
-- equal weight within long and within short
-
-### Long-Short Return Rule
-
-For each backtest period:
-- `long_return` = average realized return of the long basket
-- `short_asset_return` = average realized return of the short basket itself
-- `short_return = - short_asset_return`
-- `long_short_return = 0.5 * long_return + 0.5 * short_return`
-
-Interpretation:
-- total capital is 1
-- 0.5 allocated to the long leg
-- 0.5 allocated to the short leg
-- net exposure is approximately 0
-
-## Holding Period Logic
-
-Default behavior:
-- The backtest uses `next_quarter_return`.
-
-With `--periods D`:
-- the signal is still generated once per quarter
-- the position is opened on the first real trading day after quarter end
-- the position is closed `D` trading days later
-- the portfolio is then assumed to stay in cash until the next quarterly signal
-
-Important annualization rule:
-- Even when `--periods D` is used, the signal frequency remains quarterly.
-- Therefore annualized return, annualized volatility, Sharpe, and Sortino are annualized using `4` periods per year, not `252 / D`.
-
-## Recommended Workflows
-
-
-### Example run: 200-stock direct PE workflow with 60-day holding period
+You can run repository tests with:
 
 ```bash
-cd /Users/wood.chen/Desktop/Research/TreeAgent
-export FINNHUB_API_KEY="your_finnhub_key"
-export FRED_API_KEY="your_fred_key"
-export FMP_API_KEY="your_fmp_key"
-
-pe-pipeline fetch-data --limit 200
-pe-pipeline build-dataset --target-name target_pe_current --start-year 2010
-pe-pipeline tune --target-name target_pe_current --metric rmse --n-trials 25
-pe-pipeline train --target-name target_pe_current
-pe-pipeline backtest --top-n 5 --periods 60
+pytest tests
 ```
 
-### Same workflow with a 20-trading-day holding period
-
-```bash
-pe-pipeline backtest --top-n 3 --periods 20
-```
-
-### Full workflow for scaled-change target
-
-```bash
-cd /Users/wood.chen/Desktop/Research/TreeAgent
-export FINNHUB_API_KEY="your_finnhub_key"
-export FRED_API_KEY="your_fred_key"
-export FMP_API_KEY="your_fmp_key"
-
-pe-pipeline fetch-data --limit 20
-pe-pipeline build-dataset --target-name target_pe_scaled_change --start-year 2010
-pe-pipeline tune --target-name target_pe_scaled_change --metric spearman --n-trials 25
-pe-pipeline train --target-name target_pe_scaled_change
-pe-pipeline backtest --top-n 3
-pe-pipeline predict-latest
-```
-
-### If raw data is already present
-
-Direct PE target:
-
-```bash
-pe-pipeline build-dataset --target-name target_pe_current --start-year 2010
-pe-pipeline tune --target-name target_pe_current --metric rmse --n-trials 25
-pe-pipeline train --target-name target_pe_current
-pe-pipeline backtest --top-n 3
-```
-
-Scaled-change target:
-
-```bash
-pe-pipeline build-dataset --target-name target_pe_scaled_change --start-year 2010
-pe-pipeline tune --target-name target_pe_scaled_change --metric spearman --n-trials 25
-pe-pipeline train --target-name target_pe_scaled_change
-pe-pipeline backtest --top-n 3
-```
-
-## Main Output Files
-
-### Training and tuning
-
-- `outputs/reports/best_params.json`
-- `outputs/reports/tuning_results.csv`
-- `outputs/reports/training_metrics.json`
-- `outputs/reports/feature_importance.csv`
-- `outputs/reports/validation_predictions.csv`
-- `outputs/reports/test_predictions.csv`
-- `outputs/models/model_metadata.json`
-
-### Backtest
-
-- `outputs/backtests/quarterly_returns.csv`
-- `outputs/backtests/portfolio_summary.json`
-- `outputs/backtests/portfolio_stats.csv`
-- `outputs/backtests/quarterly_returns_plot.svg`
-- `outputs/backtests/equity_curves_plot.svg`
-
-### Latest prediction
-
-- `data/predictions/latest_predictions.csv`
-
-### Baseline
-
-- `baseline/baseline_metrics.json`
-- `baseline/test_predictions.csv`
-- `baseline/quarterly_returns.csv`
-- `baseline/portfolio_summary.json`
-- `baseline/portfolio_stats.csv`
-
-## Notes On Reproducibility
-
-- `pip install -e .` has been verified in this repository.
-- The current repo depends on live external data providers for `fetch-data`.
-- If live macro fetches fail, the code can reuse an existing local raw macro dataset.
-- `run-all` intentionally skips tuning; use `tune` explicitly when you want model selection before final training.
+The `tests/` directory is meant to validate the codebase logic, not to hold model outputs.
 
 ## Minimal Sanity Checks
-
-After installation:
 
 ```bash
 pe-pipeline --help
@@ -552,6 +539,6 @@ pe-pipeline build-dataset --help
 pe-pipeline tune --help
 pe-pipeline backtest --help
 pe-pipeline baseline --help
+python -m baseline.classification.run_classification --help
+python -m baseline.Lasso.run_lasso --help
 ```
-
-These commands have already been verified from the current repository checkout.

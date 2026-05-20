@@ -1,0 +1,20 @@
+{
+  "target_name": "target_pe_scaled_change",
+  "classification_scheme": "train_terciles",
+  "start_year": 2010,
+  "holding_period_days": 60,
+  "return_column": "holding_period_return",
+  "lower_threshold": -0.05349486397611545,
+  "upper_threshold": 0.0652251783278604,
+  "train_class_counts": {
+    "down": 1276,
+    "flat": 1275,
+    "up": 1276
+  },
+  "val_accuracy": 0.5863914373088684,
+  "val_balanced_accuracy": 0.5648129922472537,
+  "val_macro_f1": 0.5653100641729707,
+  "test_accuracy": 0.5718562874251497,
+  "test_balanced_accuracy": 0.5532458784195374,
+  "test_macro_f1": 0.5488494789199853
+}

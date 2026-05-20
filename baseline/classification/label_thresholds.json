@@ -1,0 +1,9 @@
+{
+  "lower_threshold": -0.05349486397611545,
+  "upper_threshold": 0.0652251783278604,
+  "class_labels": {
+    "0": "down",
+    "1": "flat",
+    "2": "up"
+  }
+}

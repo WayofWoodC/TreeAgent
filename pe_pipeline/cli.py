@@ -15,10 +15,10 @@ from pe_pipeline.pipelines.train import run_train
 from pe_pipeline.pipelines.tune import run_tune
 
 try:
-    from baseline.run_baseline import run_baseline
+    from baseline.prelag.run_baseline import run_baseline
 except ModuleNotFoundError:
-    baseline_path = Path(__file__).resolve().parents[1] / "baseline" / "run_baseline.py"
-    spec = importlib.util.spec_from_file_location("baseline.run_baseline", baseline_path)
+    baseline_path = Path(__file__).resolve().parents[1] / "baseline" / "prelag" / "run_baseline.py"
+    spec = importlib.util.spec_from_file_location("baseline.prelag.run_baseline", baseline_path)
     if spec is None or spec.loader is None:
         raise
     module = importlib.util.module_from_spec(spec)

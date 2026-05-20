@@ -1,0 +1,5 @@
+2026-05-17 15:52:11,023 | INFO | Rebuilding dataset for classification workflow
+2026-05-17 15:52:11,023 | INFO | Loading raw datasets
+2026-05-17 15:52:11,249 | INFO | Building quarterly feature blocks
+2026-05-17 15:52:21,477 | INFO | Applied start-year filter >= 2010-01-01: kept 6471 of 9523 rows
+2026-05-17 15:52:22,831 | INFO | Classification baseline outputs written to /Users/wood.chen/Desktop/Research/TreeAgent/baseline/classification
